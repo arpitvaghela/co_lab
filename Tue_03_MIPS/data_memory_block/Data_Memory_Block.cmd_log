@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/student/Desktop/Tue_03_MIPS/data_memory_block/Data_Memory_Block.xst" -ofn "C:/Users/student/Desktop/Tue_03_MIPS/data_memory_block/Data_Memory_Block.syr" 

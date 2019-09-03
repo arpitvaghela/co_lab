@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/student/Desktop/Tue_03_MIPS/Write_Back_Block/write_back_block_tb_isim_beh.exe" -prj "C:/Users/student/Desktop/Tue_03_MIPS/Write_Back_Block/write_back_block_tb_beh.prj" "work.write_back_block_tb" "work.glbl" 

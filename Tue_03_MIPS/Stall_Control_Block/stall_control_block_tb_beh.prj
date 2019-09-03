@@ -1,0 +1,3 @@
+verilog work "stall_control_block.v"
+verilog work "stall_control_block_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

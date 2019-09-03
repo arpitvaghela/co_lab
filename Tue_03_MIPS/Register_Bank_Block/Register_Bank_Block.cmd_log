@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/student/Desktop/Tue_03_MIPS/Register_Bank_Block/Register_Bank_Block.xst" -ofn "C:/Users/student/Desktop/Tue_03_MIPS/Register_Bank_Block/Register_Bank_Block.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 Register_Bank_Block.ngc Register_Bank_Block.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Register_Bank_Block_map.ncd Register_Bank_Block.ngd Register_Bank_Block.pcf 
