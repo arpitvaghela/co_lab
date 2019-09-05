@@ -1,5 +1,4 @@
 `timescale 1ns / 1ps
-
 ////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer:
@@ -42,29 +41,34 @@ module stall_control_block_tb;
 		.stall_pm(stall_pm)
 	);
     
-    
-    initial begin
-        clk=0;
-        reset=1;
-        op = 6'b000000;
-        #2
-        reset = 0;
-        #6
-        reset = 1;
-        #8
-        op = 6'b010100;
-        #20
-        op = 6'b000000;
-        #10
-        op = 6'b011110;
-        #30
-        op = 6'b000000;
-        #10
-        op = 6'b010001;
-        
-    end
-    
-    always #5 clk=~clk;
-
-endmodule
-
+   always begin
+clk=0;
+forever #5 clk = ~clk;
+end
+	initial begin
+		
+		op = 0;
+		clk = 0;
+		reset = 1; 
+		#2
+		reset=0;
+		
+		#6
+		reset=1;
+		
+		#8
+		op=6'b010100;
+		
+		#20
+		op=6'b000000;
+		#10
+		op=6'b011110;
+		#30
+		op=6'b000000;
+		#10
+		op=6'b010001;
+		
+		end
+		
+	endmodule
+	

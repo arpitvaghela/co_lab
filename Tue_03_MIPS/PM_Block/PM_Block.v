@@ -23,7 +23,8 @@ module program_memory_block(
     wire [15:0] hold_address_tmp;
     wire [15:0] next_address_tmp;
     wire [31:0] ins_prv_tmp;
-    
+	 wire [31:0] ins_pm;
+	 
     prog_mem ROM (
        .clka(clk), // input clka
        .addra(current_address), // input [15 : 0] addra
@@ -42,7 +43,7 @@ module program_memory_block(
     assign current_address  = (reset == 1'b0) ? 16'b0 : CAR;
 
     // instruction assignmnet
-    assign ins_pm = (stall_pm == 1'b0) ? PM_out : ins_prv;
+    assign ins_pm = (stall_pm == 1'b0) ? PM_out : ins_prv_tmp;
     assign ins = (reset == 1'b0) ? 32'b0 : ins_pm;
     
     // reg assignmnets
@@ -52,9 +53,9 @@ module program_memory_block(
     assign ins_prv_tmp = (reset == 1'b0) ? 32'b0 : ins_prv;
 
     always @ (posedge clk) begin
-        hold_address = current_address;
-        next_address = current_address + 1;
-        ins_prv = ins;
+        hold_address <= current_address;
+        next_address <= current_address + 16'b0000000000000001;
+        ins_prv <= ins;
     end
     
 endmodule

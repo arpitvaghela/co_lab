@@ -23,8 +23,8 @@ module Register_Bank_Block(
     input [1:0] mux_sel_B,
     input imm_sel,
     input clk,
-    input [15:0] A,
-    input [15:0] B
+    output [15:0] A,
+    output [15:0] B
     );
 
 reg [15:0] RegBank [31:0];

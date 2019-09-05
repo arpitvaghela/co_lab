@@ -2,28 +2,27 @@ Command line:
    Register_Bank_Block_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  55004
+     -socket  14377
 
-Tue Sep 03 14:22:15 2019
+Thu Sep 05 22:02:06 2019
 
 
- Elaboration Time: 0.265625 sec
+ Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 870.285 Meg
+ Current Memory Usage: 5476.54 Meg
 
- Total Signals          : 27
+ Total Signals          : 29
  Total Nets             : 146
- Total Signal Drivers   : 21
+ Total Signal Drivers   : 19
  Total Blocks           : 3
  Total Primitive Blocks : 2
- Total Processes        : 25
- Total Traceable Variables  : 34
- Total Scalar Nets and Variables : 887
-Total Line Count : 44
+ Total Processes        : 23
+ Total Traceable Variables  : 32
+ Total Scalar Nets and Variables : 855
 
- Total Simulation Time: 0.28125 sec
+ Total Simulation Time: 0.03125 sec
 
- Current Memory Usage: 712.954 Meg
+ Current Memory Usage: 5476.54 Meg
 
-Tue Sep 03 14:23:53 2019
+Thu Sep 05 22:03:02 2019
 

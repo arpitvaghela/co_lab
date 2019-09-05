@@ -2,14 +2,14 @@ Command line:
    stall_control_block_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  64124
+     -socket  13689
 
-Tue Sep 03 16:05:11 2019
+Thu Sep 05 19:34:27 2019
 
 
- Elaboration Time: 0.171875 sec
+ Elaboration Time: 0.0625 sec
 
- Current Memory Usage: 870.326 Meg
+ Current Memory Usage: 5476.54 Meg
 
  Total Signals          : 26
  Total Nets             : 30
@@ -19,11 +19,10 @@ Tue Sep 03 16:05:11 2019
  Total Processes        : 21
  Total Traceable Variables  : 25
  Total Scalar Nets and Variables : 122
-Total Line Count : 47
 
- Total Simulation Time: 24.4688 sec
+ Total Simulation Time: 7.53125 sec
 
- Current Memory Usage: 870.326 Meg
+ Current Memory Usage: 5476.54 Meg
 
-Tue Sep 03 16:05:37 2019
+Thu Sep 05 19:34:37 2019
 

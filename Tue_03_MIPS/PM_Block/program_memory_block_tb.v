@@ -50,34 +50,59 @@ module program_memory_block_tb;
 
 	 always begin
         clk = 0;
-        forever #10 clk = ~clk;
+        forever #5 clk = ~clk;
 	end
 	
-    
-
 	initial begin
-		// Initialize Inputs
+		reset = 1;
 		jmp_loc = 'h0008;
 		pc_mux_sel = 1;
 		stall = 0;
 		stall_pm = 0;
+		
+		#2
+		reset = 0;
+		jmp_loc = 'h0008;
+		pc_mux_sel = 1;
+		stall = 0;
+		stall_pm = 0;
+		
+		#6
 		reset = 1;
-        
-        #2 reset = 0;
-        
-        #8 reset = 1;
-        
-        #2 pc_mux_sel = 0;
-        
-        #30 stall=1;
-        
-        #10 stall =0;
-            stall_pm = 1;
-            
-        #10 pc_mux_sel =1;
-        
-            stall_pm =0;
-            
+		jmp_loc = 'h0008;
+		pc_mux_sel = 1;
+		stall = 0;
+		stall_pm = 0;
+		
+		#2
+		reset = 1;
+		jmp_loc = 'h0008;
+		pc_mux_sel = 0;
+		stall = 0;
+		stall_pm = 0;
+		
+		#30
+		reset = 1;
+		jmp_loc = 'h0008;
+		pc_mux_sel = 0;
+		stall = 1;
+		stall_pm = 0;
+		
+		#10
+		reset = 1;
+		jmp_loc = 'h0008;
+		pc_mux_sel = 0;
+		stall = 0;
+		stall_pm = 1;
+		
+		#10
+		reset = 1;
+		jmp_loc = 'h0008;
+		pc_mux_sel = 1;
+		stall = 0;
+		stall_pm = 0;
+		
+		
 	end
       
 endmodule

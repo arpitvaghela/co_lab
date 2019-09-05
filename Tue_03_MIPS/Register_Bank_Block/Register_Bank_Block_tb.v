@@ -4,9 +4,9 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   13:03:17 09/03/2019
+// Create Date:   19:38:46 09/05/2019
 // Design Name:   Register_Bank_Block
-// Module Name:   C:/Users/student/Desktop/Tue_03_MIPS/Register_Bank_Block/Register_Bank_Block_tb.v
+// Module Name:   C:/Users/patel/Desktop/Arpit/co_lab/co_lab/Tue_03_MIPS/Register_Bank_Block/Register_Bank_Block_tb.v
 // Project Name:  Register_Bank_Block
 // Target Device:  
 // Tool versions:  
@@ -36,8 +36,10 @@ module Register_Bank_Block_tb;
 	reg [1:0] mux_sel_B;
 	reg imm_sel;
 	reg clk;
-	reg [15:0] A;
-	reg [15:0] B;
+
+	// Outputs
+	wire [15:0] A;
+	wire [15:0] B;
 
 	// Instantiate the Unit Under Test (UUT)
 	Register_Bank_Block uut (
@@ -55,7 +57,6 @@ module Register_Bank_Block_tb;
 		.A(A), 
 		.B(B)
 	);
-
 	always begin
         clk = 0;
         forever #5 clk = ~clk;
@@ -87,6 +88,7 @@ module Register_Bank_Block_tb;
 		// Add stimulus here
 
 	end
-ss
+
+      
 endmodule
 

@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "C:/Users/student/Desktop/Tue_03_MIPS/Register_Bank_Block/Register_Bank_Block.v";
+static const char *ng0 = "C:/Users/patel/Desktop/Arpit/co_lab/co_lab/Tue_03_MIPS/Register_Bank_Block/Register_Bank_Block.v";
 static unsigned int ng1[] = {0U, 0U};
 static unsigned int ng2[] = {1U, 0U};
 static unsigned int ng3[] = {2U, 0U};
@@ -1420,9 +1420,9 @@ LAB18:    memcpy(t3, t34, 8);
 }
 
 
-extern void work_m_00000000000752959054_0507028321_init()
+extern void work_m_00000000002447534190_0507028321_init()
 {
 	static char *pe[] = {(void *)Always_36_0,(void *)Cont_45_1,(void *)Cont_51_2,(void *)Cont_57_3};
-	xsi_register_didat("work_m_00000000000752959054_0507028321", "isim/Register_Bank_Block_tb_isim_beh.exe.sim/work/m_00000000000752959054_0507028321.didat");
+	xsi_register_didat("work_m_00000000002447534190_0507028321", "isim/Register_Bank_Block_tb_isim_beh.exe.sim/work/m_00000000002447534190_0507028321.didat");
 	xsi_register_executes(pe);
 }

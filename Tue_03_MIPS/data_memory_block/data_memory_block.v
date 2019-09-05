@@ -23,6 +23,15 @@ module Data_Memory_Block(
 reg [15:0] Ex_out;
 wire [15:0] DM_out;
 
+data_mem d_m(
+  .clka(clk), // input clka
+  .ena(mem_en_ex), // input ena
+  .wea(mem_rw_ex), // input [0 : 0] wea
+  .addra(ans_ex), // input [15 : 0] addra
+  .dina(DM_data), // input [15 : 0] dina
+  .douta(DM_out) // output [15 : 0] douta
+);
+
 always @(posedge clk)
 begin
 	if(reset == 1'b0)
@@ -30,15 +39,6 @@ begin
 		 Ex_out = ans_ex;
 	end
 end
-
-data_mem d_m(
-  .clka(clk), // input clka
-  .ena(mem_en_ex), // input ena
-  .wea(mem_rw_ex), // input [0 : 0] wea
-  .addra(DM_data), // input [15 : 0] addra
-  .dina(ans_ex), // input [15 : 0] dina
-  .douta(DM_out) // output [15 : 0] douta
-);
 
 assign ans_dm = (mem_mux_sel_dm == 1'b0)? Ex_out : DM_out;
 

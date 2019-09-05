@@ -1,4 +1,4 @@
 verilog work "ipcore_dir/prog_mem.v"
 verilog work "PM_Block.v"
 verilog work "program_memory_block_tb.v"
-verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
+verilog work "D:/Software/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
