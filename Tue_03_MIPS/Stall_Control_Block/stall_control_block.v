@@ -34,33 +34,31 @@ module stall_control_block(
     reg jumpD0;
     reg jumpD1;
     
-    wire ldD0_tmp;
-    wire jumpD0_tmp;
-    wire jumpD1_tmp;
-    wire stall_pm_tmp;
     
     assign HLT = op[0] & (~op[1]) & (~op[2]) & (~op[3]) & op[4] & (~op[5]);
     
-    assign ld  = (~op[0]) & (~op[1]) & op[2] & (~op[3]) & op[4] & (~op[5]) & (~ldD0_tmp);
+    assign ld  = (~op[0]) & (~op[1]) & op[2] & (~op[3]) & op[4] & (~op[5]) & (~ldD0);
     
-    assign JUMP = op[2] & op[3] & op[4] & (~op[5]) &( ~jumpD1_tmp);
+    assign JUMP = op[2] & op[3] & op[4] & (~op[5]) &( ~jumpD1);
     
     assign stall = HLT | ld | JUMP;
-    
-    assign ldD0_tmp = reset ? ld : 0 ;
-    assign jumpD0_tmp = reset ? JUMP : 0;
-    assign jumpD1_tmp = reset ? jumpD0 : 0;
-    assign stall_pm_tmp = reset ? stall : 0;
     
     
     always @(posedge clk)
     begin
-    
-            ldD0 <= ldD0_tmp;
-            jumpD0 <= jumpD0_tmp;
-            jumpD1 <= jumpD1_tmp;
-            stall_pm <= stall_pm_tmp;
-            
+			if(reset)begin
+					ldD0 <= ld;
+					jumpD0 <= JUMP;
+					jumpD1 <= jumpD0;
+					stall_pm <= stall;
+            end
+			else begin
+					ldD0 <= 0;
+					jumpD0 <= 0;
+					jumpD1 <= 0;
+					stall_pm <= 0;
+			
+			end
      end
     
     

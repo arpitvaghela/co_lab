@@ -14,5 +14,5 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Compiled 3 Verilog Units
 Built simulation executable C:/Users/patel/Desktop/Arpit/co_lab/co_lab/Tue_03_MIPS/Stall_Control_Block/stall_control_block_tb_isim_beh.exe
-Fuse Memory Usage: 28304 KB
-Fuse CPU Usage: 483 ms
+Fuse Memory Usage: 28872 KB
+Fuse CPU Usage: 249 ms
