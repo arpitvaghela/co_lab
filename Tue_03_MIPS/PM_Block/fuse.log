@@ -1,12 +1,12 @@
-Running: D:\Software\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/patel/Desktop/Arpit/co_lab/co_lab/Tue_03_MIPS/PM_Block/program_memory_block_tb_isim_beh.exe -prj C:/Users/patel/Desktop/Arpit/co_lab/co_lab/Tue_03_MIPS/PM_Block/program_memory_block_tb_beh.prj work.program_memory_block_tb work.glbl 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/PM_Block/program_memory_block_tb_isim_beh.exe -prj C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/PM_Block/program_memory_block_tb_beh.prj work.program_memory_block_tb work.glbl 
 ISim P.20131013 (signature 0x7708f090)
-Number of CPUs detected in this system: 12
-Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/patel/Desktop/Arpit/co_lab/co_lab/Tue_03_MIPS/PM_Block/ipcore_dir/prog_mem.v" into library work
-Analyzing Verilog file "C:/Users/patel/Desktop/Arpit/co_lab/co_lab/Tue_03_MIPS/PM_Block/PM_Block.v" into library work
-Analyzing Verilog file "C:/Users/patel/Desktop/Arpit/co_lab/co_lab/Tue_03_MIPS/PM_Block/program_memory_block_tb.v" into library work
-Analyzing Verilog file "D:/Software/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Analyzing Verilog file "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/PM_Block/ipcore_dir/prog_mem.v" into library work
+Analyzing Verilog file "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/PM_Block/PM_Block.v" into library work
+Analyzing Verilog file "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/PM_Block/program_memory_block_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
@@ -18,7 +18,9 @@ Compiling module program_memory_block
 Compiling module program_memory_block_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\program_memory_block_tb_isim_beh.exe.sim\libPortability.dll".
 Compiled 8 Verilog Units
-Built simulation executable C:/Users/patel/Desktop/Arpit/co_lab/co_lab/Tue_03_MIPS/PM_Block/program_memory_block_tb_isim_beh.exe
-Fuse Memory Usage: 33284 KB
-Fuse CPU Usage: 608 ms
+Built simulation executable C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/PM_Block/program_memory_block_tb_isim_beh.exe
+Fuse Memory Usage: 30752 KB
+Fuse CPU Usage: 405 ms
