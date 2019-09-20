@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Running: D:\Software\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/patel/Desktop/Arpit/co_lab/co_lab/lab_5/JC_block/jc_block_tb_isim_beh.exe -prj C:/Users/patel/Desktop/Arpit/co_lab/co_lab/lab_5/JC_block/jc_block_tb_beh.prj work.jc_block_tb work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 12
@@ -6,14 +7,32 @@ Determining compilation order of HDL files
 Analyzing Verilog file "C:/Users/patel/Desktop/Arpit/co_lab/co_lab/lab_5/JC_block/JC_block.v" into library work
 Analyzing Verilog file "C:/Users/patel/Desktop/Arpit/co_lab/co_lab/lab_5/JC_block/jc_block_tb.v" into library work
 Analyzing Verilog file "D:/Software/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+=======
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/JC_block/jc_block_tb_isim_beh.exe -prj C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/JC_block/jc_block_tb_beh.prj work.jc_block_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/JC_block/JC_block.v" into library work
+Analyzing Verilog file "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/JC_block/jc_block_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+>>>>>>> 33d4a7707af5bb8cf2d1e73e4de8497d6baf2b41
 Starting static elaboration
 Completed static elaboration
 Compiling module JC_block
 Compiling module jc_block_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
+<<<<<<< HEAD
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
 Built simulation executable C:/Users/patel/Desktop/Arpit/co_lab/co_lab/lab_5/JC_block/jc_block_tb_isim_beh.exe
 Fuse Memory Usage: 29416 KB
 Fuse CPU Usage: 609 ms
+=======
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\jc_block_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/JC_block/jc_block_tb_isim_beh.exe
+Fuse Memory Usage: 26820 KB
+Fuse CPU Usage: 390 ms
+>>>>>>> 33d4a7707af5bb8cf2d1e73e4de8497d6baf2b41

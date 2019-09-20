@@ -1,0 +1,28 @@
+Command line:
+   dependence_check_block_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  12489
+
+Fri Sep 20 16:14:14 2019
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5476.58 Meg
+
+ Total Signals          : 51
+ Total Nets             : 133
+ Total Signal Drivers   : 39
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 43
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 314
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 4690.15 Meg
+
+Fri Sep 20 16:17:28 2019
+

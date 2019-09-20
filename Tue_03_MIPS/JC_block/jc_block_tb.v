@@ -64,8 +64,18 @@ module jc_block_tb;
 		flag_ex = 3;
 		interrupt = 0;
 		reset = 1;
+<<<<<<< HEAD
 		
 		#16;//16
+=======
+        
+        #1;
+        reset = 0;
+        #8;
+        reset = 1;
+		
+		#7;//16
+>>>>>>> 33d4a7707af5bb8cf2d1e73e4de8497d6baf2b41
 		interrupt = 1;
 		
 		#10;//26

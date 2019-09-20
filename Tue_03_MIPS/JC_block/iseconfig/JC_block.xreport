@@ -1,12 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
+<<<<<<< HEAD
   <DateModified>2019-09-20T15:22:26</DateModified>
   <ModuleName>JC_block</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/JC_block/iseconfig/JC_block.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/JC_block\</ImplementationReportsDirectory>
   <DateInitialized>2019-09-10T02:43:35</DateInitialized>
+=======
+  <DateModified>2019-09-17T15:10:37</DateModified>
+  <ModuleName>JC_block</ModuleName>
+  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/JC_block/iseconfig/JC_block.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/JC_block\</ImplementationReportsDirectory>
+  <DateInitialized>2019-09-10T14:00:46</DateInitialized>
+>>>>>>> 33d4a7707af5bb8cf2d1e73e4de8497d6baf2b41
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

@@ -23,7 +23,7 @@ module program_memory_block(
     wire [15:0] hold_address_tmp;
     wire [15:0] next_address_tmp;
     wire [31:0] ins_prv_tmp;
-	 wire [31:0] ins_pm;
+	wire [31:0] ins_pm;
 	 
     prog_mem ROM (
        .clka(clk), // input clka
@@ -37,7 +37,6 @@ module program_memory_block(
     wire [15:0] CAR; 
     reg [31:0] ins_prv;
     
-    // You are running low on battery
     assign CAJ = (stall == 1'b0) ? next_address : hold_address;
     assign CAR = (pc_mux_sel == 1'b0) ? CAJ : jmp_loc;
     assign current_address  = (reset == 1'b0) ? 16'b0 : CAR;
@@ -48,14 +47,14 @@ module program_memory_block(
     
     // reg assignmnets
     // assign hold_address
-    assign hold_address_tmp = (reset == 1'b0) ? 16'b0 : hold_address;
-    assign next_address_tmp = (reset == 1'b0) ? 16'b0 : next_address;
-    assign ins_prv_tmp = (reset == 1'b0) ? 32'b0 : ins_prv;
+    assign hold_address_tmp = (reset == 1'b0) ? 16'b0 : current_address;
+    assign next_address_tmp = (reset == 1'b0) ? 16'b0 : current_address + 16'b0000000000000001;
+    assign ins_prv_tmp = (reset == 1'b0) ? 32'b0 : ins;
 
     always @ (posedge clk) begin
-        hold_address <= current_address;
-        next_address <= current_address + 16'b0000000000000001;
-        ins_prv <= ins;
+        hold_address <= hold_address_tmp;
+        next_address <= next_address_tmp;
+        ins_prv <= ins_prv_tmp;
     end
     
 endmodule
