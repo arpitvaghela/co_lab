@@ -1,0 +1,28 @@
+Command line:
+   stall_control_block_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1155
+
+Thu Sep 05 23:48:57 2019
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5477.13 Meg
+
+ Total Signals          : 20
+ Total Nets             : 26
+ Total Signal Drivers   : 10
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 110
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5477.13 Meg
+
+Thu Sep 05 23:49:04 2019
+

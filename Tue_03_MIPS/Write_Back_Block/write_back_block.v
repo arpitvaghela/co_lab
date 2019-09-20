@@ -24,6 +24,7 @@ module write_back_block(
     input reset,
     output reg [15:0] ans_wb
     );
+	 
     always @(posedge clk)
     begin
        if(reset)

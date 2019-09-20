@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Stall_Control_Block -o C:/Users/patel/Desktop/Arpit/co_lab/co_lab/Tue_03_MIPS/Stall_Control_Block/stall_control_block.tfi -lib work C:/Users/patel/Desktop/Arpit/co_lab/co_lab/Tue_03_MIPS/Stall_Control_Block//stall_control_block.v -module stall_control_block -template D:/Software/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
