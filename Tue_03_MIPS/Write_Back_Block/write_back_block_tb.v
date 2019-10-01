@@ -38,24 +38,6 @@ module write_back_block_tb;
 		.ans_wb(ans_wb)
 	);
 
-    always begin
-        clk = 0;
-        forever #5 clk = ~clk;
-    end
-	
-	initial begin
-            
-        ans_dm = 'h0034;
-		reset  = 1;
-        #2;
-        reset = 0;
-        #6;
-        reset = 1;
-        ans_dm = 'h1111;
-        #5;
-        ans_dm = 'h3331;
-		
-	end
       
 endmodule
 

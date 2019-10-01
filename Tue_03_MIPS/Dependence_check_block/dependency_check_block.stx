@@ -1,16 +1,16 @@
 Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Dependence_check_block/xst/projnav.tmp
+--> Parameter TMPDIR set to C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Dependence_check_block/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.06 secs
  
---> Parameter xsthdpdir set to C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Dependence_check_block/xst
+--> Parameter xsthdpdir set to C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Dependence_check_block/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> Reading design: dependency_check_block.prj
 
@@ -39,16 +39,16 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Dependence_check_block\dependency_check_block.v" into library work
+Analyzing Verilog file "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Dependence_check_block\dependency_check_block.v" into library work
 Parsing module <dependency_check_block>.
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.86 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.05 secs
  
 --> 
 
-Total memory usage is 229416 kilobytes
+Total memory usage is 4481432 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

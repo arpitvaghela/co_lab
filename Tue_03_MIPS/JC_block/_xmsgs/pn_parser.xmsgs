@@ -8,7 +8,11 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<<<<<<< HEAD
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/JC_block/JC_block.v&quot; into library work</arg>
+=======
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/JC_block/JC_block.v&quot; into library work</arg>
+>>>>>>> 33d4a7707af5bb8cf2d1e73e4de8497d6baf2b41
 </msg>
 
 </messages>

@@ -1,5 +1,5 @@
-set -tmpdir "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Dependence_check_block/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Dependence_check_block/xst"
+set -tmpdir "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Dependence_check_block/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Dependence_check_block/xst"
 run -compileonly yes
 -p xc7a100t-1-csg324
 -top dependency_check_block

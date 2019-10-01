@@ -115,6 +115,9 @@
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+<<<<<<< HEAD
+   <CurrentView>Behavioral Simulation</CurrentView>
+=======
    <CurrentView>Implementation</CurrentView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
       <ClosedNodes>
@@ -130,4 +133,5 @@
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
+>>>>>>> 33d4a7707af5bb8cf2d1e73e4de8497d6baf2b41
 </Project>

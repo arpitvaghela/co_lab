@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+stall_control_block instance_name (
+    .op(op), 
+    .clk(clk), 
+    .reset(reset), 
+    .stall(stall), 
+    .stall_pm(stall_pm)
+    );
+
+

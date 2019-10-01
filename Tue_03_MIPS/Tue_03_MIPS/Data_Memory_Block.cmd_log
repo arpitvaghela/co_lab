@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/Data_Memory_Block.xst" -ofn "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/Data_Memory_Block.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -bm MIPS.bmm -p xc7a100t-csg324-1 Data_Memory_Block.ngc Data_Memory_Block.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Data_Memory_Block_map.ncd Data_Memory_Block.ngd Data_Memory_Block.pcf 
+par -w -intstyle ise -ol high -mt off Data_Memory_Block_map.ncd Data_Memory_Block.ncd Data_Memory_Block.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Data_Memory_Block.twx Data_Memory_Block.ncd -o Data_Memory_Block.twr Data_Memory_Block.pcf 
+xst -intstyle ise -ifn "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/Data_Memory_Block.xst" -ofn "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/Data_Memory_Block.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -bm MIPS.bmm -p xc7a100t-csg324-1 Data_Memory_Block.ngc Data_Memory_Block.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Data_Memory_Block_map.ncd Data_Memory_Block.ngd Data_Memory_Block.pcf 
+par -w -intstyle ise -ol high -mt off Data_Memory_Block_map.ncd Data_Memory_Block.ncd Data_Memory_Block.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Data_Memory_Block.twx Data_Memory_Block.ncd -o Data_Memory_Block.twr Data_Memory_Block.pcf 
