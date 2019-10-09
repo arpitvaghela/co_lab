@@ -68,7 +68,7 @@ module JC_block(
     assign current_address_mux = (interrupt)? nxt_address : current_address_reg ;
     
     // set to f000 one clk after interrupt else jmp_address 
-    assign jmp_address_mux = (F1) ? 'hf000 : jmp_address_pm;
+    assign jmp_address_mux = (F1) ? 'hf0000 : jmp_address_pm;
     
     // select between stored current_address and jum_locations 
     assign jmp_loc = (RET) ? current_address_reg : jmp_address_mux ;

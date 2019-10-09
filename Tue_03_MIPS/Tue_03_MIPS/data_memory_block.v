@@ -34,10 +34,17 @@ data_mem d_m(
 
 always @(posedge clk)
 begin
-	if(reset == 1'b0)
-	begin
-		 Ex_out = ans_ex;
-	end
+    if(reset)
+       begin
+            Ex_out = ans_ex;
+       end
+       
+       else begin
+            Ex_out = 0;
+       end
+       
+		 
+	
 end
 
 assign ans_dm = (mem_mux_sel_dm == 1'b0)? Ex_out : DM_out;

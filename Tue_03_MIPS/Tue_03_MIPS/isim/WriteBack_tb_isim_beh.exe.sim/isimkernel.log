@@ -1,0 +1,29 @@
+Command line:
+   WriteBack_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62554
+
+Wed Oct 09 17:35:49 2019
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 870.343 Meg
+
+ Total Signals          : 17
+ Total Nets             : 47
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 161
+Total Line Count : 34
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 870.343 Meg
+
+Wed Oct 09 17:35:56 2019
+

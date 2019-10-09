@@ -42,7 +42,7 @@ module program_memory_block(
     assign current_address  = (reset == 1'b0) ? 16'b0 : CAR;
 
     // instruction assignmnet
-    assign ins_pm = (stall_pm == 1'b0) ? PM_out : ins_prv_tmp;
+    assign ins_pm = (stall_pm == 1'b0) ? PM_out : ins_prv;
     assign ins = (reset == 1'b0) ? 32'b0 : ins_pm;
     
     // reg assignmnets
@@ -52,9 +52,20 @@ module program_memory_block(
     assign ins_prv_tmp = (reset == 1'b0) ? 32'b0 : ins;
 
     always @ (posedge clk) begin
-        hold_address <= hold_address_tmp;
-        next_address <= next_address_tmp;
-        ins_prv <= ins_prv_tmp;
+    if(reset)
+       begin
+            hold_address <= hold_address_tmp;
+            next_address <= next_address_tmp;
+            ins_prv <= ins_prv_tmp;
+       end
+       
+       else begin
+            hold_address <= 0;
+            next_address <= 0;
+            ins_prv <= 0;
+       end
+    
+    
     end
     
 endmodule

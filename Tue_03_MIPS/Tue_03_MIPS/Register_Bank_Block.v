@@ -34,10 +34,10 @@ wire [15:0] BI;
 
 //32 array element of size [15:0]
 always @(posedge clk)
-begin
-    AR = RegBank[RA];
-    BR = RegBank[RB];
-    RegBank[RW_dm] = ans_dm;
+begin  
+        AR = RegBank[RA];
+        BR = RegBank[RB];
+        RegBank[RW_dm] = ans_dm;
 end
 
 

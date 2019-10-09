@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="1059" delta="new" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\dependency\dependency_check_block.v" Line 39: <arg fmt="%s" index="1">int</arg> is an unknown type
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\dependency\dependency_check_block.v" Line 55: Target &lt;<arg fmt="%s" index="1">extended_signal</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="255" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\dependency\dependency_check_block.v" Line 55: Cannot assign to memory <arg fmt="%s" index="1">extended_signal</arg> directly
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\dependency\dependency_check_block.v" Line 21: Module &lt;<arg fmt="%s" index="1">dependence_check_block</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

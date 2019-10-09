@@ -61,16 +61,10 @@ module execution_block(input [15:0] A,
 
     assign data_out_buff = (op_dec == 6'b010111) ? A : 0;  // OUT
 
-    assign flag_ex[1] = (ans_ex == 0) ? 1 : 0;  // Checking the zero flag
-
     // Resetting zero flag
-    assign flag_ex[1] = (op_dec == 6'b010000) ? 0 :  // RET
-                        (op_dec == 6'b010001) ? 0 :  // HLT
-                        (op_dec == 6'b010010) ? 0 :  // LD
-                        (op_dec == 6'b010100) ? 0 :  // ST
-                        (op_dec == 6'b010111) ? 0 :  // OUT
-                        (op_dec == 6'b011000) ? 0 :  // JMP
-                        flag_prv[1];  // default
+    assign flag_ex[1] = (op_dec >= 6'b011100) ? flag_prv[1]:
+                        (op_dec >= 6'b010000 & op_dec != 6'b010111) ? 0:
+                         (ans_ex == 0) ? 1'b1 : 0;
 
     always @(posedge clk) begin
         if (reset) begin
@@ -79,10 +73,10 @@ module execution_block(input [15:0] A,
             DM_data = 0;
         end
         else begin
-            ans_ex <= ans_tmp;
-            data_out <= data_out_buff;
-            DM_data <= B;
-            flag_prv <= flag_ex;
+            ans_ex = ans_tmp;
+            data_out = data_out_buff;
+            DM_data = B;
+            flag_prv = flag_ex;
         end
     end
 
