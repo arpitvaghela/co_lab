@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="255" delta="unknown" >"C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/dependency/dependency_check_block.v" Line 55: Cannot assign to memory <arg fmt="%s" index="1">extended_signal</arg> directly
+</msg>
+
+<msg type="error" file="HDLCompiler" num="252" delta="unknown" >"C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/dependency/dependency_check_block.v" Line 55: Cannot assign <arg fmt="%s" index="1">a packed</arg> type to <arg fmt="%s" index="2">an unpacked</arg> type
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="unknown" >"C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/dependency/dependency_check_block.v" Line 21: Module &lt;<arg fmt="%s" index="1">dependence_check_block</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

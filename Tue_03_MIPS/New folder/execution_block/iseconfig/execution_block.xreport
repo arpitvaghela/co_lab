@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report-views version="2.0" >
+ <header>
+<<<<<<< HEAD
+  <DateModified>2019-10-01T13:12:38</DateModified>
+  <ModuleName>execution_block</ModuleName>
+  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/execution_block/iseconfig/execution_block.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/execution_block\</ImplementationReportsDirectory>
+  <DateInitialized>2019-09-17T15:19:47</DateInitialized>
+=======
+  <ImplementationReportsDirectory>C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/execution_block</ImplementationReportsDirectory>
+  <ModuleName>execution_block</ModuleName>
+  <DateModified>2019-09-20T16:04:27</DateModified>
+  <SavedFilePath>C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/execution_block/iseconfig/execution_block.xreport</SavedFilePath>
+  <DateInitialized>2019-09-20T16:04:27</DateInitialized>
+>>>>>>> a5134ddbc396e59a339a259c0021607beec52939
+  <EnableMessageFiltering>false</EnableMessageFiltering>
+ </header>
+</report-views>
