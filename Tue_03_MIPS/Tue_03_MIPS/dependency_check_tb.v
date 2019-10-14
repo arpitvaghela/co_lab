@@ -41,7 +41,7 @@ module dependency_check_tb;
 	wire mem_mux_sel_dm;
 
 	// Instantiate the Unit Under Test (UUT)
-	dependence_check_block uut (
+	dc_block uut (
 		.ins(ins), 
 		.clk(clk), 
 		.reset(reset), 

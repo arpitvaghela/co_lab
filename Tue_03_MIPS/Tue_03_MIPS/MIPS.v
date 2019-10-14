@@ -58,7 +58,7 @@ execution_block ex(A, B, data_in,op_dec,clk,reset, ans_ex,DM_data,data_out,flag_
 
 Data_Memory_Block dm( ans_ex, DM_data, mem_rw_ex, mem_en_ex, mem_mux_sel_dm,reset,clk,ans_dm);
 
-dependence_check_block dc(ins, clk, reset, imm, op_dec, RW_dm, mux_sel_A, mux_sel_B, imm_sel, mem_en_ex, mem_rw_ex, mem_mux_sel_dm);
+dc_block dc(ins, clk, reset, imm, op_dec, RW_dm, mux_sel_A, mux_sel_B, imm_sel, mem_en_ex, mem_rw_ex, mem_mux_sel_dm);
 
 write_back_block wb(ans_dm, clk, reset, ans_wb);
 

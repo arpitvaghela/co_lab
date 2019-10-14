@@ -25,7 +25,7 @@ module program_memory_block(
     wire [31:0] ins_prv_tmp;
 	wire [31:0] ins_pm;
 	 
-    prog_mem ROM (
+    prog_mem1 ROM (
        .clka(clk), // input clka
        .addra(current_address), // input [15 : 0] addra
        .douta(PM_out) // output [31 : 0] douta

@@ -29,48 +29,67 @@ module dependence_check_block(
     output [1:0] mux_sel_B,
     output reg imm_sel,
     output reg mem_en_ex,
-    output reg mem_rw_ex,
-    output reg mem_mux_sel_dm
+    output reg mem_rw_ex,	
+    output reg mem_mux_sel_dm	 
     );
+wire JMP,Cond_J,LD_fb,Imm,ld,ST;	 
+wire LD_final, mee_tmp, mmsd_tmp1, signal;
+wire [14:0] extended_signal;
+wire [14:0] add;
 
-wire JMP,Cond_J,LD_fb,Imm,ld,ST;
-wire LD_final;
-reg LD_tmp,ST_tmp,mmsd_tmp,ins_0_tmp,LD_fb_final;
-wire extended_signal [14:0];
-wire signal;
+reg ins26, ld_prv, ST_tmp,mmsd_tmp2,LD_fb_tmp;
+reg [4:0] add_1014_tmp;
+reg [4:0] C1;
+reg [4:0] C2;
+reg [4:0] C3;
+reg [4:0] CA;
+reg [4:0] CB;
 
-assign JMP = ~ins[5] & ins[4] & ins[3] & ~ins[2] & ~ins[1] & ~ins[0];
-assign Cond_J = ~ins[5] & ins[4] & ins[3] & ins[2];
-assign LD_fb = ~ins[5] & ins[4] & ~ins[3] & ins[2] & ~ins[1] & ~ins[0];
-assign Imm = ~ins[5] & ~ins[4] & ins[3];
-assign ld = ~ins[5] & ins[4] & ~ins[3] & ins[2] & ~ins[1] & ~ins[0];
-assign ST = ~ins[5] & ins[4] & ~ins[3] & ins[2] & ~ins[1] & ins[0];
+assign JMP = (~ins[31]) & ins[30] & ins[29] & (~ins[28]) & (~ins[27]) & (~ins[26]);
+assign Cond_J = (~ins[31]) & ins[30] & ins[29] & ins[28] ;
+assign LD_fb = ~ins[31] & ins[30] & ~ins[29] & ins[28] & ~ins[27] & ~ins[26] & ld_prv;
+assign Imm = ~ins[31] & ~ins[30] & ins[29];
+assign ld = ~ins[31] & ins[30] & ~ins[29] & ins[28] & ~ins[27] & ~ins[26];
+assign ST = ~ins[31] & ins[30] & ~ins[29] & ins[28] & ~ins[27] & ins[26];
 
-assign LD_final = ld & LD_tmp;
-assign mem_en_ex_tmp = LD_tmp | ST_tmp;
-assign mmsd = ~ins_0_tmp & mem_en_ex_tmp;
+assign LD_final = ld & ~(ld_prv);
+assign mee_tmp = ld_prv | ST_tmp;
+assign mmsd_tmp1 = ~(ins26) & mee_tmp;
 
-//extend address signal
-assign signal = ~(JMP | Cond_J | LD_fb_final);
-assign extended_signal = signal ? 15'b1: 15'b0;
+assign signal = ~(JMP | Cond_J | LD_fb_tmp);
+assign extended_signal = {15{signal}};
+assign add = extended_signal & ins[25:11];
 
-always @(posedge clk)
-begin
-    ins_0_tmp = ins[0];
-    mem_rw_ex <= ins_0_tmp;
-    LD_tmp <= LD_final;
-    ST_tmp <= ST;
-    mmsd_tmp <= mmsd;
-    mem_mux_sel_dm <= mmsd_tmp;
-    mem_en_ex <= mem_en_ex_tmp;
-    
-    imm_sel <= Imm;
-    
-    op_dec <= ins[31:26];
-    
-    LD_fb_final <= LD_fb;
-    
-    imm <= ins[15:0];
-    
-end
+assign mux_sel_A = (CA == C3) ? 2'b11:
+						(CA == C2) ? 2'b10:
+						(CA == C1)? 2'b01:2'b00;
+
+assign mux_sel_B = (CB == C3) ? 2'b11:
+						(CB == C2) ? 2'b10:
+						(CB == C1)? 2'b01:2'b00;
+
+assign RW_dm = C2;
+
+always @(posedge clk)begin
+	
+	op_dec <= ins[31:26];
+	imm_sel <= Imm;
+	ins26 <= ins[26];
+	mem_rw_ex <= ins26;
+	ld_prv <= LD_final;
+	ST_tmp <= ST;
+	mmsd_tmp2 <= mmsd_tmp1;
+	mem_mux_sel_dm <= mmsd_tmp2;
+	mem_en_ex <= mee_tmp;
+	imm <= ins[15:0];
+	LD_fb_tmp <= LD_fb;
+	add_1014_tmp <= add[14:10];
+	C1 <= add_1014_tmp;
+	C2 <= C1;
+	C3 <= C2;
+	CA <= add[9:5];
+	CB <= add[4:0];
+	
+end		
+				
 endmodule

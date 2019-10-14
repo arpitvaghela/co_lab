@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-10-09T18:02:22</DateModified>
+  <DateModified>2019-10-14T18:18:02</DateModified>
   <ModuleName>MIPS</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/iseconfig/MIPS.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/iseconfig/MIPS.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS\</ImplementationReportsDirectory>
   <DateInitialized>2019-10-09T17:43:31</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
