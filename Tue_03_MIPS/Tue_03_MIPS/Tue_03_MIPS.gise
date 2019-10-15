@@ -72,6 +72,10 @@
     <transform xil_pn:end_ts="1571130157" xil_pn:in_ck="1329660144208955813" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1571130157">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Data_Memory_Block_tb.v"/>
       <outfile xil_pn:name="JC_block.v"/>
       <outfile xil_pn:name="MIPS.v"/>
@@ -110,6 +114,11 @@
     <transform xil_pn:end_ts="1571130160" xil_pn:in_ck="1329660144208955813" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1571130160">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Data_Memory_Block_tb.v"/>
       <outfile xil_pn:name="JC_block.v"/>
       <outfile xil_pn:name="MIPS.v"/>
@@ -132,7 +141,10 @@
     <transform xil_pn:end_ts="1571132881" xil_pn:in_ck="5806966288282838954" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8683130083901454809" xil_pn:start_ts="1571132877">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MIPS_tb_beh.prj"/>
       <outfile xil_pn:name="MIPS_tb_isim_beh.exe"/>
@@ -144,6 +156,7 @@
     <transform xil_pn:end_ts="1571132881" xil_pn:in_ck="8683261074984031712" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1502503017830662468" xil_pn:start_ts="1571132881">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MIPS_tb_isim_beh.wdb"/>
@@ -186,7 +199,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="MIPS.lso"/>
       <outfile xil_pn:name="MIPS.ngc"/>

@@ -66,6 +66,30 @@ wire [5:0] op_dec_tmp;
 wire [4:0] RW_dm_tmp;
 wire mem_en_ex_tmp,mem_rw_ex_tmp,mem_mux_sel_dm_tmp;
 
+assign ins_tmp = ins;
+assign A_tmp = A;
+assign B_tmp = B;
+assign Current_Address_tmp = Current_Address;
+assign ans_ex_tmp = ans_ex;
+assign ans_dm_tmp = ans_dm;
+assign ans_wb_tmp = ans_wb;
+assign mux_sel_A_tmp = mux_sel_A;
+assign mux_sel_B_tmp = mux_sel_B;
+assign imm_sel_tmp = imm_sel; 
+
+assign stall_tmp  = stall;
+assign stall_pm_tmp  = stall_pm 
+assign pc_mux_sel_tmp = pc_mux_sel;
+assign jmp_loc_tmp = jmp_loc;
+assign flag_ex_tmp = flag_ex;
+assign DM_data_tmp = DM_data;
+assign imm_tmp = imm;
+assign op_dec_tmp = op_dec;
+assign RW_dm_tmp = RW_dm;
+assign mem_en_ex_tmp = mem_en_ex,
+assign mem_rw_ex_tmp = mem_rw_ex,
+assign mem_mux_sel_dm_tmp = mem_mux_sel_dm;
+
 JC_block jc(ins_tmp[15:0], Current_Address_tmp,ins_tmp[31:26],flag_ex_tmp,interrupt,clk,reset,jmp_loc,pc_mux_sel);
 //JC_block(input [15:0] jmp_address_pm,input [15:0] current_address,input [5:0] op,input [1:0] flag_ex,input interrupt,input clk,input reset,output [15:0] jmp_loc,output pc_mux_sel);
 
