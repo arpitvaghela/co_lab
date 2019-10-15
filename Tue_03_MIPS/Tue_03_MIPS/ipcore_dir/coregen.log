@@ -1,12 +1,63 @@
 INFO:sim:172 - Generating IP...
-Applying current project options...
-Finished applying current project options.
-ERROR:sim - Unable to find C:\Users\patel\Desktop\pro_data_mips.txt
-ERROR:sim -    Coregen is looking for C:\Users\patel\Desktop\pro_data_mips.txt
-ERROR:sim - Unable to find C:\Users\patel\Desktop\pro_data_mips.txt
-ERROR:sim -    Coregen is looking for C:\Users\patel\Desktop\pro_data_mips.txt
-ERROR:sim - An invalid core configuration has been detected during
-ERROR:sim -    Customization. Core parameters will be reset to their default
-   values.
-Cancelled executing Tcl generator.
-Wrote CGP file for project 'prog_mem1'.
+Resolving generics for 'prog_mem2'...
+Applying external generics to 'prog_mem2'...
+Delivering associated files for 'prog_mem2'...
+Delivering EJava files for 'prog_mem2'...
+Generating implementation netlist for 'prog_mem2'...
+INFO:sim - Pre-processing HDL files for 'prog_mem2'...
+Running synthesis for 'prog_mem2'
+Running ngcbuild...
+Writing VEO instantiation template for 'prog_mem2'...
+Writing Verilog behavioral simulation model for 'prog_mem2'...
+WARNING:sim - Overwriting existing file
+   C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/tmp
+   /_cg/prog_mem2/doc/blk_mem_gen_v7_3_vinfo.html with file from view
+   xilinx_documentation
+Delivered 1 file into directory
+C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/tmp/_c
+g/prog_mem2
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'prog_mem2'...
+Generating metadata file...
+Regenerating ISE project file for 'prog_mem2'...
+Generating ISE project...
+XCO file found: prog_mem2.xco
+XMDF file found: prog_mem2_xmdf.tcl
+Adding
+C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/tmp/_c
+g/prog_mem2.asy -view all -origin_type imported
+Adding
+C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/tmp/_c
+g/prog_mem2.ngc -view all -origin_type created
+Checking file
+"C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/tmp/_
+cg/prog_mem2.ngc" for project device match ...
+File
+"C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/tmp/_
+cg/prog_mem2.ngc" device information matches project device.
+Adding
+C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/tmp/_c
+g/prog_mem2.sym -view all -origin_type imported
+Adding
+C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/tmp/_c
+g/prog_mem2.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/tm
+   p/_cg/prog_mem2.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/tmp/_c
+g/prog_mem2.veo -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/prog_mem2"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'prog_mem2'.

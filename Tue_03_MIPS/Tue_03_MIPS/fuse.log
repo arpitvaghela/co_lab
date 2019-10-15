@@ -3,7 +3,7 @@ ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/prog_mem1.v" into library work
+Analyzing Verilog file "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/prog_mem2.v" into library work
 Analyzing Verilog file "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/data_mem.v" into library work
 Analyzing Verilog file "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/write_back_block.v" into library work
 Analyzing Verilog file "C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/stall_control_block.v" into library work
@@ -24,7 +24,7 @@ Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
 Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
 Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
 Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
-Compiling module prog_mem1
+Compiling module prog_mem2
 Compiling module program_memory_block
 Compiling module Register_Bank_Block
 Compiling module execution_block
@@ -41,8 +41,9 @@ Compiling module MIPS
 Compiling module MIPS_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
 WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\MIPS_tb_isim_beh.exe.sim\libPortability.dll".
 Compiled 22 Verilog Units
 Built simulation executable C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/MIPS_tb_isim_beh.exe
-Fuse Memory Usage: 32524 KB
+Fuse Memory Usage: 32448 KB
 Fuse CPU Usage: 608 ms

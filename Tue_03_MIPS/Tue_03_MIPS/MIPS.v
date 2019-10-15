@@ -78,7 +78,7 @@ assign mux_sel_B_tmp = mux_sel_B;
 assign imm_sel_tmp = imm_sel; 
 
 assign stall_tmp  = stall;
-assign stall_pm_tmp  = stall_pm 
+assign stall_pm_tmp  = stall_pm;
 assign pc_mux_sel_tmp = pc_mux_sel;
 assign jmp_loc_tmp = jmp_loc;
 assign flag_ex_tmp = flag_ex;
@@ -86,8 +86,8 @@ assign DM_data_tmp = DM_data;
 assign imm_tmp = imm;
 assign op_dec_tmp = op_dec;
 assign RW_dm_tmp = RW_dm;
-assign mem_en_ex_tmp = mem_en_ex,
-assign mem_rw_ex_tmp = mem_rw_ex,
+assign mem_en_ex_tmp = mem_en_ex;
+assign mem_rw_ex_tmp = mem_rw_ex;
 assign mem_mux_sel_dm_tmp = mem_mux_sel_dm;
 
 JC_block jc(ins_tmp[15:0], Current_Address_tmp,ins_tmp[31:26],flag_ex_tmp,interrupt,clk,reset,jmp_loc,pc_mux_sel);
