@@ -41,9 +41,8 @@ Compiling module MIPS
 Compiling module MIPS_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\MIPS_tb_isim_beh.exe.sim\libPortability.dll".
 Compiled 22 Verilog Units
 Built simulation executable C:/Users/student/Desktop/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/MIPS_tb_isim_beh.exe
-Fuse Memory Usage: 32496 KB
-Fuse CPU Usage: 671 ms
+Fuse Memory Usage: 32524 KB
+Fuse CPU Usage: 608 ms

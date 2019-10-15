@@ -11,7 +11,7 @@
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\JC_block.v" Line 71: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\ipcore_dir\prog_mem1.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">prog_mem1</arg>&gt; remains a black box.
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\ipcore_dir\prog_mem1.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">prog_mem1</arg>&gt; remains a black box.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\Register_Bank_Block.v" Line 45: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
@@ -32,7 +32,7 @@
 <msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\ipcore_dir\data_mem.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">data_mem</arg>&gt; remains a black box.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 42: Assignment to <arg fmt="%s" index="1">LD_fb</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 42: Assignment to <arg fmt="%s" index="1">LD_fb</arg> ignored, since the identifier is never used
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 61: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
@@ -65,22 +65,22 @@
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 109: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 115: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 115: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 116: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 116: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 117: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 117: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 118: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 118: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 119: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 119: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 120: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 120: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\student\Desktop\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 129: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
@@ -104,7 +104,7 @@
 <msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lower_dff</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">dc</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;op_dec_0&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">lower_dff</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">dc</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;op_dec_0&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_RegBank</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
@@ -113,7 +113,7 @@
 <msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_RegBank1</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">lower_dff</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">dc_block</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;op_dec_0&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">lower_dff</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">dc_block</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;op_dec_0&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pm/ins_prv_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dc/imm_10&gt; </arg>
@@ -140,7 +140,7 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pm/ins_prv_31</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dc/op_dec_5&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">pm/ins_prv_26</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dc/lower_dff&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pm/ins_prv_26</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dc/lower_dff&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pm/ins_prv_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dc/op_dec_1&gt; </arg>
@@ -152,7 +152,7 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pm/ins_prv_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dc/op_dec_3&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">pm/ins_prv_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dc/imm_0&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pm/ins_prv_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dc/imm_0&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pm/ins_prv_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dc/imm_1&gt; </arg>
@@ -182,7 +182,7 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pm/ins_prv_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dc/imm_9&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">sc/ldD0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dc/ld_dff&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">sc/ldD0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">MIPS</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dc/ld_dff&gt; </arg>
 </msg>
 
 </messages>
