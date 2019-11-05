@@ -3,7 +3,7 @@ ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 12
 Turning on mult-threading, number of parallel sub-compilation jobs: 24 
 Determining compilation order of HDL files
-Analyzing Verilog file "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/prog_mem1.v" into library work
+Analyzing Verilog file "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/prog_mem2.v" into library work
 Analyzing Verilog file "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/ipcore_dir/data_mem.v" into library work
 Analyzing Verilog file "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/write_back_block.v" into library work
 Analyzing Verilog file "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/stall_control_block.v" into library work
@@ -17,6 +17,7 @@ Analyzing Verilog file "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MI
 Analyzing Verilog file "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/MIPS_tb.v" into library work
 Analyzing Verilog file "D:/Software/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/MIPS.v" Line 50: Size mismatch in connection of port <jmp_address_pm>. Formal port size is 16-bit while actual signal size is 15-bit.
 Completed static elaboration
 Compiling module JC_block
 Compiling module stall_control_block
@@ -24,7 +25,7 @@ Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
 Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
 Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
 Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
-Compiling module prog_mem1
+Compiling module prog_mem2
 Compiling module program_memory_block
 Compiling module Register_Bank_Block
 Compiling module execution_block
@@ -43,5 +44,5 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Compiled 22 Verilog Units
 Built simulation executable C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/MIPS_tb_isim_beh.exe
-Fuse Memory Usage: 34436 KB
-Fuse CPU Usage: 999 ms
+Fuse Memory Usage: 35152 KB
+Fuse CPU Usage: 781 ms

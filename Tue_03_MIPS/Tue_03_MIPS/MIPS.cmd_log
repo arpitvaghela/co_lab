@@ -11,3 +11,6 @@ xst -intstyle ise -ifn "C:/Users/student/Desktop/co_lab/Tue_03_MIPS/MIPS.xst" -o
 xst -intstyle ise -ifn "C:/Users/student/Desktop/co_lab/Tue_03_MIPS/MIPS.xst" -ofn "C:/Users/student/Desktop/co_lab/Tue_03_MIPS/MIPS.syr" 
 xst -intstyle ise -ifn "C:/Users/student/Desktop/co_lab/Tue_03_MIPS/MIPS.xst" -ofn "C:/Users/student/Desktop/co_lab/Tue_03_MIPS/MIPS.syr" 
 xst -intstyle ise -ifn "C:/Users/student/Desktop/co_lab/Tue_03_MIPS/MIPS.xst" -ofn "C:/Users/student/Desktop/co_lab/Tue_03_MIPS/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/MIPS.xst" -ofn "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/MIPS.xst" -ofn "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/MIPS.syr" 
+xst -intstyle ise -ifn "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/MIPS.xst" -ofn "C:/Users/patel/Desktop/CLG/Arpit/co_lab/co_lab/Tue_03_MIPS/Tue_03_MIPS/MIPS.syr" 

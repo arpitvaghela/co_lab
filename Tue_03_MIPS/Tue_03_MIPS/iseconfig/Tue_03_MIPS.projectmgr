@@ -24,20 +24,20 @@
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
          <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Design Utilities</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>Synthesize - XST</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Synthesize - XST</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Synthesize - XST</CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -68,13 +68,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
       <ClosedNodes>
@@ -92,15 +92,25 @@
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Data_Memory_Block_tb C:|Users|patel|Desktop|CLG|Arpit|co_lab|co_lab|Tue_03_MIPS|Tue_03_MIPS|Data_Memory_Block_tb.v</ClosedNode>
          <ClosedNode>/Data_Memory_Block_tb C:|Users|student|Desktop|co_lab|Tue_03_MIPS|Data_Memory_Block_tb.v</ClosedNode>
          <ClosedNode>/MIPS C:|Users|student|Desktop|co_lab|Tue_03_MIPS|MIPS.v</ClosedNode>
          <ClosedNode>/MIPS_tb C:|Users|patel|Desktop|CLG|Arpit|co_lab|co_lab|Tue_03_MIPS|Tue_03_MIPS|MIPS_tb.v</ClosedNode>
+         <ClosedNode>/MIPS_tb C:|Users|patel|Desktop|CLG|Arpit|co_lab|co_lab|Tue_03_MIPS|Tue_03_MIPS|MIPS_tb.v/uut - MIPS/dm - Data_Memory_Block</ClosedNode>
+         <ClosedNode>/MIPS_tb C:|Users|patel|Desktop|CLG|Arpit|co_lab|co_lab|Tue_03_MIPS|Tue_03_MIPS|MIPS_tb.v/uut - MIPS/pm - program_memory_block</ClosedNode>
+         <ClosedNode>/Register_Bank_Block_tb C:|Users|patel|Desktop|CLG|Arpit|co_lab|co_lab|Tue_03_MIPS|Tue_03_MIPS|Register_Bank_Block_tb.v</ClosedNode>
          <ClosedNode>/Register_Bank_Block_tb C:|Users|student|Desktop|co_lab|Tue_03_MIPS|Register_Bank_Block_tb.v</ClosedNode>
+         <ClosedNode>/WriteBack_tb C:|Users|patel|Desktop|CLG|Arpit|co_lab|co_lab|Tue_03_MIPS|Tue_03_MIPS|WriteBack_tb.v</ClosedNode>
          <ClosedNode>/WriteBack_tb C:|Users|student|Desktop|co_lab|Tue_03_MIPS|WriteBack_tb.v</ClosedNode>
+         <ClosedNode>/dc_block_tb C:|Users|patel|Desktop|CLG|Arpit|co_lab|co_lab|Tue_03_MIPS|Tue_03_MIPS|dc_block_tb.v</ClosedNode>
          <ClosedNode>/dependency_check_tb C:|Users|student|Desktop|co_lab|Tue_03_MIPS|dependency_check_tb.v</ClosedNode>
+         <ClosedNode>/execution_block_tb C:|Users|patel|Desktop|CLG|Arpit|co_lab|co_lab|Tue_03_MIPS|Tue_03_MIPS|execution_block_tb.v</ClosedNode>
          <ClosedNode>/execution_block_tb C:|Users|student|Desktop|co_lab|Tue_03_MIPS|execution_block_tb.v</ClosedNode>
+         <ClosedNode>/jc_block_tb C:|Users|patel|Desktop|CLG|Arpit|co_lab|co_lab|Tue_03_MIPS|Tue_03_MIPS|jc_block_tb.v</ClosedNode>
          <ClosedNode>/jc_block_tb C:|Users|student|Desktop|co_lab|Tue_03_MIPS|jc_block_tb.v</ClosedNode>
+         <ClosedNode>/program_memory_block_tb C:|Users|patel|Desktop|CLG|Arpit|co_lab|co_lab|Tue_03_MIPS|Tue_03_MIPS|program_memory_block_tb.v</ClosedNode>
          <ClosedNode>/program_memory_block_tb C:|Users|student|Desktop|co_lab|Tue_03_MIPS|program_memory_block_tb.v</ClosedNode>
+         <ClosedNode>/stall_control_block_tb C:|Users|patel|Desktop|CLG|Arpit|co_lab|co_lab|Tue_03_MIPS|Tue_03_MIPS|stall_control_block_tb.v</ClosedNode>
          <ClosedNode>/stall_control_block_tb C:|Users|student|Desktop|co_lab|Tue_03_MIPS|stall_control_block_tb.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
@@ -118,13 +128,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -158,12 +168,12 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
 </Project>

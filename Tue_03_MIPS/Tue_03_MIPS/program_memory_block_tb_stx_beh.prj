@@ -1,3 +1,4 @@
+verilog isim_temp "ipcore_dir/prog_mem2.v"
 verilog isim_temp "PM_Block.v"
 verilog isim_temp "program_memory_block_tb.v"
-verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
+verilog isim_temp "D:/Software/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

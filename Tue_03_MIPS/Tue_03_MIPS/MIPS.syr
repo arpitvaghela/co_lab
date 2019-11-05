@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: MIPS.prj
 
@@ -108,27 +108,27 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\ipcore_dir\prog_mem.v" into library work
-Parsing module <prog_mem>.
-Analyzing Verilog file "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\ipcore_dir\data_mem.v" into library work
+Analyzing Verilog file "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\ipcore_dir\prog_mem2.v" into library work
+Parsing module <prog_mem2>.
+Analyzing Verilog file "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\ipcore_dir\data_mem.v" into library work
 Parsing module <data_mem>.
-Analyzing Verilog file "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\write_back_block.v" into library work
+Analyzing Verilog file "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\write_back_block.v" into library work
 Parsing module <write_back_block>.
-Analyzing Verilog file "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\stall_control_block.v" into library work
+Analyzing Verilog file "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\stall_control_block.v" into library work
 Parsing module <stall_control_block>.
-Analyzing Verilog file "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\Register_Bank_Block.v" into library work
+Analyzing Verilog file "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\Register_Bank_Block.v" into library work
 Parsing module <Register_Bank_Block>.
-Analyzing Verilog file "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\PM_Block.v" into library work
+Analyzing Verilog file "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\PM_Block.v" into library work
 Parsing module <program_memory_block>.
-Analyzing Verilog file "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\JC_block.v" into library work
+Analyzing Verilog file "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\JC_block.v" into library work
 Parsing module <JC_block>.
-Analyzing Verilog file "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\execution_block.v" into library work
+Analyzing Verilog file "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\execution_block.v" into library work
 Parsing module <execution_block>.
-Analyzing Verilog file "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\dependency_check_block.v" into library work
-Parsing module <dependence_check_block>.
-Analyzing Verilog file "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\data_memory_block.v" into library work
+Analyzing Verilog file "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" into library work
+Parsing module <dc_block>.
+Analyzing Verilog file "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\data_memory_block.v" into library work
 Parsing module <Data_Memory_Block>.
-Analyzing Verilog file "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\MIPS.v" into library work
+Analyzing Verilog file "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\MIPS.v" into library work
 Parsing module <MIPS>.
 
 =========================================================================
@@ -138,31 +138,55 @@ Parsing module <MIPS>.
 Elaborating module <MIPS>.
 
 Elaborating module <JC_block>.
-WARNING:HDLCompiler:413 - "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\JC_block.v" Line 67: Result of 17-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\JC_block.v" Line 71: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\JC_block.v" Line 67: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\JC_block.v" Line 71: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:189 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\MIPS.v" Line 50: Size mismatch in connection of port <jmp_address_pm>. Formal port size is 16-bit while actual signal size is 15-bit.
 
 Elaborating module <stall_control_block>.
 
 Elaborating module <program_memory_block>.
 
-Elaborating module <prog_mem>.
-WARNING:HDLCompiler:1499 - "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\ipcore_dir\prog_mem.v" Line 39: Empty module <prog_mem> remains a black box.
+Elaborating module <prog_mem2>.
+WARNING:HDLCompiler:1499 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\ipcore_dir\prog_mem2.v" Line 39: Empty module <prog_mem2> remains a black box.
 
 Elaborating module <Register_Bank_Block>.
-WARNING:HDLCompiler:413 - "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\Register_Bank_Block.v" Line 45: Result of 32-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\Register_Bank_Block.v" Line 51: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\Register_Bank_Block.v" Line 45: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\Register_Bank_Block.v" Line 51: Result of 32-bit expression is truncated to fit in 16-bit target.
 
 Elaborating module <execution_block>.
-WARNING:HDLCompiler:413 - "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\execution_block.v" Line 31: Result of 32-bit expression is truncated to fit in 17-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\execution_block.v" Line 62: Result of 32-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\execution_block.v" Line 65: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\execution_block.v" Line 31: Result of 32-bit expression is truncated to fit in 17-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\execution_block.v" Line 62: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\execution_block.v" Line 65: Result of 32-bit expression is truncated to fit in 1-bit target.
 
 Elaborating module <Data_Memory_Block>.
 
 Elaborating module <data_mem>.
-WARNING:HDLCompiler:1499 - "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\ipcore_dir\data_mem.v" Line 39: Empty module <data_mem> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\ipcore_dir\data_mem.v" Line 39: Empty module <data_mem> remains a black box.
 
-Elaborating module <dependence_check_block>.
+Elaborating module <dc_block>.
+WARNING:HDLCompiler:1127 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 42: Assignment to LD_fb ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 61: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 88: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 89: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 90: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 98: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 99: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 100: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 101: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 105: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 109: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 115: Result of 32-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 116: Result of 32-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 117: Result of 32-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 118: Result of 32-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 119: Result of 32-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 120: Result of 32-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 129: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 130: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 131: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 132: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 133: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v" Line 134: Result of 32-bit expression is truncated to fit in 1-bit target.
 
 Elaborating module <write_back_block>.
 
@@ -171,13 +195,13 @@ Elaborating module <write_back_block>.
 =========================================================================
 
 Synthesizing Unit <MIPS>.
-    Related source file is "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\MIPS.v".
+    Related source file is "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\MIPS.v".
     Summary:
 	no macro.
 Unit <MIPS> synthesized.
 
 Synthesizing Unit <JC_block>.
-    Related source file is "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\JC_block.v".
+    Related source file is "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\JC_block.v".
     Register <F2> equivalent to <F1> has been removed
     Found 16-bit register for signal <current_address_reg>.
     Found 1-bit register for signal <F1>.
@@ -190,7 +214,7 @@ Synthesizing Unit <JC_block>.
 Unit <JC_block> synthesized.
 
 Synthesizing Unit <stall_control_block>.
-    Related source file is "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\stall_control_block.v".
+    Related source file is "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\stall_control_block.v".
     Found 1-bit register for signal <jumpD0>.
     Found 1-bit register for signal <jumpD1>.
     Found 1-bit register for signal <stall_pm>.
@@ -200,7 +224,7 @@ Synthesizing Unit <stall_control_block>.
 Unit <stall_control_block> synthesized.
 
 Synthesizing Unit <program_memory_block>.
-    Related source file is "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\PM_Block.v".
+    Related source file is "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\PM_Block.v".
     Found 16-bit register for signal <next_address>.
     Found 32-bit register for signal <ins_prv>.
     Found 16-bit register for signal <hold_address>.
@@ -212,7 +236,7 @@ Synthesizing Unit <program_memory_block>.
 Unit <program_memory_block> synthesized.
 
 Synthesizing Unit <Register_Bank_Block>.
-    Related source file is "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\Register_Bank_Block.v".
+    Related source file is "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\Register_Bank_Block.v".
     Found 16-bit register for signal <BR>.
     Found 16-bit register for signal <AR>.
     Found 32x16-bit dual-port RAM <Mram_RegBank> for signal <RegBank>.
@@ -225,7 +249,7 @@ Synthesizing Unit <Register_Bank_Block>.
 Unit <Register_Bank_Block> synthesized.
 
 Synthesizing Unit <execution_block>.
-    Related source file is "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\execution_block.v".
+    Related source file is "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\execution_block.v".
     Found 16-bit register for signal <data_out>.
     Found 16-bit register for signal <DM_data>.
     Found 2-bit register for signal <flag_prv>.
@@ -251,46 +275,45 @@ Synthesizing Unit <execution_block>.
 Unit <execution_block> synthesized.
 
 Synthesizing Unit <Data_Memory_Block>.
-    Related source file is "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\data_memory_block.v".
+    Related source file is "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\data_memory_block.v".
     Found 16-bit register for signal <Ex_out>.
     Summary:
 	inferred  16 D-type flip-flop(s).
 	inferred   1 Multiplexer(s).
 Unit <Data_Memory_Block> synthesized.
 
-Synthesizing Unit <dependence_check_block>.
-    Related source file is "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\dependency_check_block.v".
-    Register <RW_dm> equivalent to <C1> has been removed
-    Register <ins_0_tmp> equivalent to <mem_rw_ex> has been removed
+Synthesizing Unit <dc_block>.
+    Related source file is "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\dc_block.v".
+    Found 1-bit register for signal <ld_dff>.
+    Found 1-bit register for signal <st_dff>.
+    Found 1-bit register for signal <lower_dff>.
     Found 1-bit register for signal <mem_rw_ex>.
-    Found 1-bit register for signal <LD_tmp>.
-    Found 1-bit register for signal <ST_tmp>.
+    Found 1-bit register for signal <ldff_2>.
     Found 1-bit register for signal <mem_mux_sel_dm>.
     Found 1-bit register for signal <mem_en_ex>.
     Found 1-bit register for signal <imm_sel>.
-    Found 6-bit register for signal <op_dec>.
-    Found 1-bit register for signal <LD_fb_final>.
     Found 16-bit register for signal <imm>.
-    Found 5-bit register for signal <add1410tmp>.
-    Found 5-bit register for signal <C1>.
-    Found 5-bit register for signal <C2>.
-    Found 5-bit register for signal <C3>.
-    Found 5-bit register for signal <CA>.
-    Found 5-bit register for signal <CB>.
-    Found 5-bit comparator equal for signal <C3[4]_CA[4]_equal_3_o> created at line 69
-    Found 5-bit comparator equal for signal <C2[4]_CA[4]_equal_4_o> created at line 70
-    Found 5-bit comparator equal for signal <C1[4]_CA[4]_equal_5_o> created at line 71
-    Found 5-bit comparator equal for signal <C3[4]_CB[4]_equal_9_o> created at line 73
-    Found 5-bit comparator equal for signal <C2[4]_CB[4]_equal_10_o> created at line 74
-    Found 5-bit comparator equal for signal <C1[4]_CB[4]_equal_11_o> created at line 75
+    Found 5-bit register for signal <r1>.
+    Found 5-bit register for signal <r2>.
+    Found 5-bit register for signal <r3>.
+    Found 5-bit register for signal <r4>.
+    Found 5-bit register for signal <r5>.
+    Found 5-bit register for signal <r6>.
+    Found 6-bit register for signal <op_dec>.
+    Found 5-bit comparator equal for signal <r1[4]_r3[4]_equal_38_o> created at line 129
+    Found 5-bit comparator equal for signal <r1[4]_r4[4]_equal_40_o> created at line 130
+    Found 5-bit comparator equal for signal <r5[4]_r1[4]_equal_42_o> created at line 131
+    Found 5-bit comparator equal for signal <r3[4]_r6[4]_equal_44_o> created at line 132
+    Found 5-bit comparator equal for signal <r6[4]_r4[4]_equal_46_o> created at line 133
+    Found 5-bit comparator equal for signal <r5[4]_r6[4]_equal_48_o> created at line 134
     Summary:
-	inferred  59 D-type flip-flop(s).
+	inferred  60 D-type flip-flop(s).
 	inferred   6 Comparator(s).
 	inferred   4 Multiplexer(s).
-Unit <dependence_check_block> synthesized.
+Unit <dc_block> synthesized.
 
 Synthesizing Unit <write_back_block>.
-    Related source file is "C:\Users\student\Desktop\co_lab\Tue_03_MIPS\write_back_block.v".
+    Related source file is "C:\Users\patel\Desktop\CLG\Arpit\co_lab\co_lab\Tue_03_MIPS\Tue_03_MIPS\write_back_block.v".
     Found 16-bit register for signal <ans_wb>.
     Summary:
 	inferred  16 D-type flip-flop(s).
@@ -306,8 +329,8 @@ Macro Statistics
  16-bit adder                                          : 2
  17-bit adder                                          : 2
  32-bit adder                                          : 2
-# Registers                                            : 33
- 1-bit register                                        : 12
+# Registers                                            : 34
+ 1-bit register                                        : 13
  16-bit register                                       : 11
  2-bit register                                        : 2
  32-bit register                                       : 1
@@ -335,12 +358,11 @@ INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmet
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-Reading core <ipcore_dir/prog_mem.ngc>.
+Reading core <ipcore_dir/prog_mem2.ngc>.
 Reading core <ipcore_dir/data_mem.ngc>.
-Loading core <prog_mem> for timing and area information for instance <ROM>.
+Loading core <prog_mem2> for timing and area information for instance <ROM>.
 Loading core <data_mem> for timing and area information for instance <d_m>.
-INFO:Xst:2261 - The FF/Latch <mem_rw_ex> in Unit <dc> is equivalent to the following FF/Latch, which will be removed : <imm_0> 
-WARNING:Xst:1710 - FF/Latch <LD_tmp> (without init value) has a constant value of 0 in block <dc>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <lower_dff> in Unit <dc> is equivalent to the following FF/Latch, which will be removed : <op_dec_0> 
 
 Synthesizing (advanced) Unit <Register_Bank_Block>.
 INFO:Xst:3231 - The small RAM <Mram_RegBank> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
@@ -387,8 +409,8 @@ Macro Statistics
  16-bit adder                                          : 2
  17-bit adder                                          : 2
  32-bit adder                                          : 2
-# Registers                                            : 260
- Flip-Flops                                            : 260
+# Registers                                            : 261
+ Flip-Flops                                            : 261
 # Comparators                                          : 8
  5-bit comparator equal                                : 6
  6-bit comparator lessequal                            : 2
@@ -409,8 +431,7 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1710 - FF/Latch <LD_tmp> (without init value) has a constant value of 0 in block <dependence_check_block>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <mem_rw_ex> in Unit <dependence_check_block> is equivalent to the following FF/Latch, which will be removed : <imm_0> 
+INFO:Xst:2261 - The FF/Latch <lower_dff> in Unit <dc_block> is equivalent to the following FF/Latch, which will be removed : <op_dec_0> 
 
 Optimizing unit <MIPS> ...
 
@@ -426,10 +447,9 @@ Optimizing unit <Register_Bank_Block> ...
 
 Optimizing unit <Data_Memory_Block> ...
 
-Optimizing unit <dependence_check_block> ...
+Optimizing unit <dc_block> ...
 
 Optimizing unit <write_back_block> ...
-WARNING:Xst:1710 - FF/Latch <dc/mem_mux_sel_dm> (without init value) has a constant value of 0 in block <MIPS>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_10> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/imm_10> 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_11> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/imm_11> 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_12> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/imm_12> 
@@ -438,11 +458,11 @@ INFO:Xst:2261 - The FF/Latch <pm/ins_prv_14> in Unit <MIPS> is equivalent to the
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_15> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/imm_15> 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_30> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/op_dec_4> 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_31> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/op_dec_5> 
-INFO:Xst:2261 - The FF/Latch <pm/ins_prv_26> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/op_dec_0> 
+INFO:Xst:2261 - The FF/Latch <pm/ins_prv_26> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/lower_dff> 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_27> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/op_dec_1> 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_28> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/op_dec_2> 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_29> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/op_dec_3> 
-INFO:Xst:2261 - The FF/Latch <pm/ins_prv_0> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/mem_rw_ex> 
+INFO:Xst:2261 - The FF/Latch <pm/ins_prv_0> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/imm_0> 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_1> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/imm_1> 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_2> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/imm_2> 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_3> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/imm_3> 
@@ -452,6 +472,7 @@ INFO:Xst:2261 - The FF/Latch <pm/ins_prv_6> in Unit <MIPS> is equivalent to the 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_7> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/imm_7> 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_8> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/imm_8> 
 INFO:Xst:2261 - The FF/Latch <pm/ins_prv_9> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/imm_9> 
+INFO:Xst:2261 - The FF/Latch <sc/ldD0> in Unit <MIPS> is equivalent to the following FF/Latch, which will be removed : <dc/ld_dff> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -463,8 +484,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 233
- Flip-Flops                                            : 233
+# Registers                                            : 235
+ Flip-Flops                                            : 235
 
 =========================================================================
 
@@ -487,23 +508,23 @@ Top Level Output File Name         : MIPS.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1113
+# BELS                             : 1110
 #      GND                         : 3
 #      INV                         : 1
-#      LUT2                        : 4
-#      LUT3                        : 50
-#      LUT4                        : 168
-#      LUT5                        : 107
-#      LUT6                        : 465
+#      LUT2                        : 21
+#      LUT3                        : 74
+#      LUT4                        : 142
+#      LUT5                        : 87
+#      LUT6                        : 474
 #      MUXCY                       : 78
-#      MUXF7                       : 117
+#      MUXF7                       : 110
 #      MUXF8                       : 36
 #      VCC                         : 3
 #      XORCY                       : 81
-# FlipFlops/Latches                : 241
+# FlipFlops/Latches                : 243
 #      FD                          : 32
 #      FDE                         : 10
-#      FDR                         : 183
+#      FDR                         : 185
 #      FDRE                        : 16
 # RAMS                             : 100
 #      RAM32M                      : 4
@@ -522,17 +543,17 @@ Selected Device : 7a100tcsg324-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             241  out of  126800     0%  
- Number of Slice LUTs:                  827  out of  63400     1%  
-    Number used as Logic:               795  out of  63400     1%  
+ Number of Slice Registers:             243  out of  126800     0%  
+ Number of Slice LUTs:                  831  out of  63400     1%  
+    Number used as Logic:               799  out of  63400     1%  
     Number used as Memory:               32  out of  19000     0%  
        Number used as RAM:               32
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    930
-   Number with an unused Flip Flop:     689  out of    930    74%  
-   Number with an unused LUT:           103  out of    930    11%  
-   Number of fully used LUT-FF pairs:   138  out of    930    14%  
+ Number of LUT Flip Flop pairs used:    936
+   Number with an unused Flip Flop:     693  out of    936    74%  
+   Number with an unused LUT:           105  out of    936    11%  
+   Number of fully used LUT-FF pairs:   138  out of    936    14%  
    Number of unique control sets:        12
 
 IO Utilization: 
@@ -565,7 +586,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 341   |
+clk                                | BUFGP                  | 343   |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -573,8 +594,8 @@ Asynchronous Control Signals Information:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                                                                                                                 | Buffer(FF name)                                                                                                                                  | Load  |
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-pm/ROM/N1(pm/ROM/XST_GND:G)                                                                                                                                                                                                                                                    | NONE(pm/ROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM36.ram)    | 106   |
-dm/d_m/N1(dm/d_m/XST_GND:G)                                                                                                                                                                                                                                                    | NONE(dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM36.ram)     | 46    |
+pm/ROM/N1(pm/ROM/XST_GND:G)                                                                                                                                                                                                                                                    | NONE(pm/ROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM36.ram)     | 106   |
+dm/d_m/N1(dm/d_m/XST_GND:G)                                                                                                                                                                                                                                                    | NONE(dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_B)| 46    |
 dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/v6_init.ram/cascadelata_tmp(dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_B:CASCADEOUTA)| NONE(dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_T)| 1     |
 dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/v6_init.ram/cascadelatb_tmp(dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_B:CASCADEOUTB)| NONE(dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_T)| 1     |
 dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/v6_init.ram/cascadelata_tmp(dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_B:CASCADEOUTA)| NONE(dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_T)| 1     |
@@ -605,10 +626,10 @@ Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: 10.581ns (Maximum Frequency: 94.509MHz)
-   Minimum input arrival time before clock: 8.054ns
-   Maximum output required time after clock: 10.374ns
-   Maximum combinational path delay: 7.847ns
+   Minimum period: 11.473ns (Maximum Frequency: 87.160MHz)
+   Minimum input arrival time before clock: 7.767ns
+   Maximum output required time after clock: 11.252ns
+   Maximum combinational path delay: 7.546ns
 
 Timing Details:
 ---------------
@@ -616,45 +637,48 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 10.581ns (frequency: 94.509MHz)
-  Total number of paths / destination ports: 30150510 / 583
+  Clock period: 11.473ns (frequency: 87.160MHz)
+  Total number of paths / destination ports: 50713640 / 585
 -------------------------------------------------------------------------
-Delay:               10.581ns (Levels of Logic = 42)
-  Source:            dc/C3_0 (FF)
+Delay:               11.473ns (Levels of Logic = 45)
+  Source:            dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_1 (FF)
   Destination:       jc/current_address_reg_15 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: dc/C3_0 to jc/current_address_reg_15
+  Data Path: dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_1 to jc/current_address_reg_15
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              2   0.478   0.945  dc/C3_0 (dc/C3_0)
-     LUT6:I0->O            2   0.124   0.427  dc/C3[4]_CB[4]_equal_9_o5_SW0 (N14)
-     LUT5:I4->O           33   0.124   0.689  dc/C3[4]_CB[4]_equal_9_o5 (dc/C3[4]_CB[4]_equal_9_o)
-     LUT4:I2->O            2   0.124   0.782  reg_bank/Mmux_B12 (reg_bank/Mmux_B17)
-     LUT6:I2->O            1   0.124   0.000  ex/Madd_n0195[16:0]_lut<0>1 (ex/Madd_n0195[16:0]_lut<0>1)
-     MUXCY:S->O            1   0.472   0.000  ex/Madd_n0195[16:0]_cy<0> (ex/Madd_n0195[16:0]_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<1> (ex/Madd_n0195[16:0]_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<2> (ex/Madd_n0195[16:0]_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<3> (ex/Madd_n0195[16:0]_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<4> (ex/Madd_n0195[16:0]_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<5> (ex/Madd_n0195[16:0]_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<6> (ex/Madd_n0195[16:0]_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<7> (ex/Madd_n0195[16:0]_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<8> (ex/Madd_n0195[16:0]_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<9> (ex/Madd_n0195[16:0]_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<10> (ex/Madd_n0195[16:0]_cy<10>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<11> (ex/Madd_n0195[16:0]_cy<11>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<12> (ex/Madd_n0195[16:0]_cy<12>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<13> (ex/Madd_n0195[16:0]_cy<13>)
-     XORCY:CI->O           1   0.510   0.421  ex/Madd_n0195[16:0]_xor<14> (ex/n0195[16:0]<14>)
-     LUT6:I5->O            1   0.124   0.000  ex/op_dec<3>51_F (N288)
-     MUXF7:I0->O           2   0.365   0.722  ex/op_dec<3>51 (ex/Mmux__n021415_A_rs_A<14>)
+     FDE:C->Q             36   0.478   1.092  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_1 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe<1>)
+     LUT6:I0->O            1   0.124   0.000  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux_51 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux_51)
+     MUXF7:I1->O           1   0.368   0.000  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux_4_f7 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux_4_f7)
+     MUXF8:I0->O           1   0.296   0.421  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux_2_f8 (douta<0>)
+     end scope: 'dm/d_m:douta<0>'
+     LUT3:I2->O            6   0.124   0.749  dm/Mmux_ans_dm17 (ans_dm_0_OBUF)
+     LUT6:I3->O           15   0.124   0.513  reg_bank/Mmux_n003311 (A_0_OBUF)
+     LUT2:I1->O            1   0.124   0.000  ex/Madd_n0203[16:0]_lut<0>1 (ex/Madd_n0203[16:0]_lut<0>1)
+     MUXCY:S->O            1   0.472   0.000  ex/Madd_n0203[16:0]_cy<0> (ex/Madd_n0203[16:0]_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<1> (ex/Madd_n0203[16:0]_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<2> (ex/Madd_n0203[16:0]_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<3> (ex/Madd_n0203[16:0]_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<4> (ex/Madd_n0203[16:0]_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<5> (ex/Madd_n0203[16:0]_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<6> (ex/Madd_n0203[16:0]_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<7> (ex/Madd_n0203[16:0]_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<8> (ex/Madd_n0203[16:0]_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<9> (ex/Madd_n0203[16:0]_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<10> (ex/Madd_n0203[16:0]_cy<10>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<11> (ex/Madd_n0203[16:0]_cy<11>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<12> (ex/Madd_n0203[16:0]_cy<12>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<13> (ex/Madd_n0203[16:0]_cy<13>)
+     XORCY:CI->O           1   0.510   0.421  ex/Madd_n0203[16:0]_xor<14> (ex/n0203[16:0]<14>)
+     LUT5:I4->O            1   0.124   0.536  ex/Mmux__n021415_A_A_711 (ex/Mmux__n021415_A_A_711)
+     LUT6:I4->O            2   0.124   0.722  ex/op_dec<3>51 (ex/Mmux__n021415_A_rs_A<14>)
      LUT3:I0->O            1   0.124   0.421  ex/Mmux__n021415_rs14 (ex/Mmux__n021415_rs14)
      LUT4:I3->O            1   0.124   0.000  ex/Mmux__n021415_rs_lut<0>15 (ex/Mmux__n021415_rs_lut<0>15)
      MUXCY:S->O            0   0.472   0.000  ex/Mmux__n021415_rs_cy<0>_14 (ex/Mmux__n021415_rs_cy<0>15)
-     XORCY:CI->O          32   0.510   0.574  ex/Mmux__n021415_rs_xor<0>_15 (ex/Mmux__n021415_split<16>)
+     XORCY:CI->O          34   0.510   0.574  ex/Mmux__n021415_rs_xor<0>_15 (ex/Mmux__n021415_split<16>)
      LUT6:I5->O            1   0.124   0.000  jc/Madd_nxt_address_lut<0> (jc/Madd_nxt_address_lut<0>)
      MUXCY:S->O            1   0.472   0.000  jc/Madd_nxt_address_cy<0> (jc/Madd_nxt_address_cy<0>)
      MUXCY:CI->O           1   0.029   0.000  jc/Madd_nxt_address_cy<1> (jc/Madd_nxt_address_cy<1>)
@@ -674,14 +698,14 @@ Delay:               10.581ns (Levels of Logic = 42)
      XORCY:CI->O           1   0.510   0.000  jc/Madd_nxt_address_xor<15> (jc/nxt_address<15>)
      FDRE:D                    0.030          jc/current_address_reg_15
     ----------------------------------------
-    Total                     10.581ns (5.601ns logic, 4.980ns route)
-                                       (52.9% logic, 47.1% route)
+    Total                     11.473ns (6.024ns logic, 5.449ns route)
+                                       (52.5% logic, 47.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 185532 / 412
+  Total number of paths / destination ports: 186194 / 413
 -------------------------------------------------------------------------
-Offset:              8.054ns (Levels of Logic = 40)
+Offset:              7.767ns (Levels of Logic = 40)
   Source:            data_in<0> (PAD)
   Destination:       jc/current_address_reg_15 (FF)
   Destination Clock: clk rising
@@ -690,8 +714,8 @@ Offset:              8.054ns (Levels of Logic = 40)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             8   0.001   0.985  data_in_0_IBUF (data_in_0_IBUF)
-     LUT6:I0->O            1   0.124   0.000  ex/Madd_n0203[16:0]_lut<0>1 (ex/Madd_n0203[16:0]_lut<0>1)
+     IBUF:I->O             8   0.001   0.582  data_in_0_IBUF (data_in_0_IBUF)
+     LUT2:I0->O            1   0.124   0.000  ex/Madd_n0203[16:0]_lut<0>1 (ex/Madd_n0203[16:0]_lut<0>1)
      MUXCY:S->O            1   0.472   0.000  ex/Madd_n0203[16:0]_cy<0> (ex/Madd_n0203[16:0]_cy<0>)
      MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<1> (ex/Madd_n0203[16:0]_cy<1>)
      MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<2> (ex/Madd_n0203[16:0]_cy<2>)
@@ -701,18 +725,18 @@ Offset:              8.054ns (Levels of Logic = 40)
      MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<6> (ex/Madd_n0203[16:0]_cy<6>)
      MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<7> (ex/Madd_n0203[16:0]_cy<7>)
      MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<8> (ex/Madd_n0203[16:0]_cy<8>)
-     XORCY:CI->O           1   0.510   0.421  ex/Madd_n0203[16:0]_xor<9> (ex/n0203[16:0]<9>)
-     LUT6:I5->O            1   0.124   0.421  ex/op_dec<3>151_SW1 (N199)
-     LUT5:I4->O            2   0.124   0.722  ex/op_dec<3>151 (ex/Mmux__n021415_A_rs_A<9>)
-     LUT3:I0->O            1   0.124   0.421  ex/Mmux__n021415_rs9 (ex/Mmux__n021415_rs9)
-     LUT4:I3->O            1   0.124   0.000  ex/Mmux__n021415_rs_lut<0>10 (ex/Mmux__n021415_rs_lut<0>10)
-     MUXCY:S->O            1   0.472   0.000  ex/Mmux__n021415_rs_cy<0>_9 (ex/Mmux__n021415_rs_cy<0>10)
-     MUXCY:CI->O           1   0.029   0.000  ex/Mmux__n021415_rs_cy<0>_10 (ex/Mmux__n021415_rs_cy<0>11)
-     MUXCY:CI->O           1   0.029   0.000  ex/Mmux__n021415_rs_cy<0>_11 (ex/Mmux__n021415_rs_cy<0>12)
-     MUXCY:CI->O           1   0.029   0.000  ex/Mmux__n021415_rs_cy<0>_12 (ex/Mmux__n021415_rs_cy<0>13)
-     MUXCY:CI->O           1   0.029   0.000  ex/Mmux__n021415_rs_cy<0>_13 (ex/Mmux__n021415_rs_cy<0>14)
-     MUXCY:CI->O           0   0.029   0.000  ex/Mmux__n021415_rs_cy<0>_14 (ex/Mmux__n021415_rs_cy<0>15)
-     XORCY:CI->O          32   0.510   0.574  ex/Mmux__n021415_rs_xor<0>_15 (ex/Mmux__n021415_split<16>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<9> (ex/Madd_n0203[16:0]_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<10> (ex/Madd_n0203[16:0]_cy<10>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<11> (ex/Madd_n0203[16:0]_cy<11>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<12> (ex/Madd_n0203[16:0]_cy<12>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<13> (ex/Madd_n0203[16:0]_cy<13>)
+     XORCY:CI->O           1   0.510   0.421  ex/Madd_n0203[16:0]_xor<14> (ex/n0203[16:0]<14>)
+     LUT5:I4->O            1   0.124   0.536  ex/Mmux__n021415_A_A_711 (ex/Mmux__n021415_A_A_711)
+     LUT6:I4->O            2   0.124   0.722  ex/op_dec<3>51 (ex/Mmux__n021415_A_rs_A<14>)
+     LUT3:I0->O            1   0.124   0.421  ex/Mmux__n021415_rs14 (ex/Mmux__n021415_rs14)
+     LUT4:I3->O            1   0.124   0.000  ex/Mmux__n021415_rs_lut<0>15 (ex/Mmux__n021415_rs_lut<0>15)
+     MUXCY:S->O            0   0.472   0.000  ex/Mmux__n021415_rs_cy<0>_14 (ex/Mmux__n021415_rs_cy<0>15)
+     XORCY:CI->O          34   0.510   0.574  ex/Mmux__n021415_rs_xor<0>_15 (ex/Mmux__n021415_split<16>)
      LUT6:I5->O            1   0.124   0.000  jc/Madd_nxt_address_lut<0> (jc/Madd_nxt_address_lut<0>)
      MUXCY:S->O            1   0.472   0.000  jc/Madd_nxt_address_cy<0> (jc/Madd_nxt_address_cy<0>)
      MUXCY:CI->O           1   0.029   0.000  jc/Madd_nxt_address_cy<1> (jc/Madd_nxt_address_cy<1>)
@@ -732,69 +756,30 @@ Offset:              8.054ns (Levels of Logic = 40)
      XORCY:CI->O           1   0.510   0.000  jc/Madd_nxt_address_xor<15> (jc/nxt_address<15>)
      FDRE:D                    0.030          jc/current_address_reg_15
     ----------------------------------------
-    Total                      8.054ns (4.511ns logic, 3.544ns route)
-                                       (56.0% logic, 44.0% route)
+    Total                      7.767ns (4.511ns logic, 3.256ns route)
+                                       (58.1% logic, 41.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 1611154 / 149
+  Total number of paths / destination ports: 2714637 / 149
 -------------------------------------------------------------------------
-Offset:              10.374ns (Levels of Logic = 28)
-  Source:            dc/C3_0 (FF)
+Offset:              11.252ns (Levels of Logic = 31)
+  Source:            dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_1 (FF)
   Destination:       Current_Address<11> (PAD)
   Source Clock:      clk rising
 
-  Data Path: dc/C3_0 to Current_Address<11>
+  Data Path: dm/d_m/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_1 to Current_Address<11>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              2   0.478   0.945  dc/C3_0 (dc/C3_0)
-     LUT6:I0->O            2   0.124   0.427  dc/C3[4]_CB[4]_equal_9_o5_SW0 (N14)
-     LUT5:I4->O           33   0.124   0.689  dc/C3[4]_CB[4]_equal_9_o5 (dc/C3[4]_CB[4]_equal_9_o)
-     LUT4:I2->O            2   0.124   0.782  reg_bank/Mmux_B12 (reg_bank/Mmux_B17)
-     LUT6:I2->O            1   0.124   0.000  ex/Madd_n0195[16:0]_lut<0>1 (ex/Madd_n0195[16:0]_lut<0>1)
-     MUXCY:S->O            1   0.472   0.000  ex/Madd_n0195[16:0]_cy<0> (ex/Madd_n0195[16:0]_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<1> (ex/Madd_n0195[16:0]_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<2> (ex/Madd_n0195[16:0]_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<3> (ex/Madd_n0195[16:0]_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<4> (ex/Madd_n0195[16:0]_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<5> (ex/Madd_n0195[16:0]_cy<5>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<6> (ex/Madd_n0195[16:0]_cy<6>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<7> (ex/Madd_n0195[16:0]_cy<7>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<8> (ex/Madd_n0195[16:0]_cy<8>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<9> (ex/Madd_n0195[16:0]_cy<9>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<10> (ex/Madd_n0195[16:0]_cy<10>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<11> (ex/Madd_n0195[16:0]_cy<11>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<12> (ex/Madd_n0195[16:0]_cy<12>)
-     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0195[16:0]_cy<13> (ex/Madd_n0195[16:0]_cy<13>)
-     XORCY:CI->O           1   0.510   0.421  ex/Madd_n0195[16:0]_xor<14> (ex/n0195[16:0]<14>)
-     LUT6:I5->O            1   0.124   0.000  ex/op_dec<3>51_F (N288)
-     MUXF7:I0->O           2   0.365   0.722  ex/op_dec<3>51 (ex/Mmux__n021415_A_rs_A<14>)
-     LUT3:I0->O            1   0.124   0.421  ex/Mmux__n021415_rs14 (ex/Mmux__n021415_rs14)
-     LUT4:I3->O            1   0.124   0.000  ex/Mmux__n021415_rs_lut<0>15 (ex/Mmux__n021415_rs_lut<0>15)
-     MUXCY:S->O            0   0.472   0.000  ex/Mmux__n021415_rs_cy<0>_14 (ex/Mmux__n021415_rs_cy<0>15)
-     XORCY:CI->O          32   0.510   0.574  ex/Mmux__n021415_rs_xor<0>_15 (ex/Mmux__n021415_split<16>)
-     LUT6:I5->O           18   0.124   0.533  jc/pc_mux_sel2 (pc_mux_sel)
-     LUT6:I5->O           60   0.124   0.558  pm/Mmux_current_address22 (Current_Address_10_OBUF)
-     OBUF:I->O                 0.000          Current_Address_10_OBUF (Current_Address<10>)
-    ----------------------------------------
-    Total                     10.374ns (4.303ns logic, 6.071ns route)
-                                       (41.5% logic, 58.5% route)
-
-=========================================================================
-Timing constraint: Default path analysis
-  Total number of paths / destination ports: 9504 / 48
--------------------------------------------------------------------------
-Delay:               7.847ns (Levels of Logic = 26)
-  Source:            data_in<0> (PAD)
-  Destination:       Current_Address<11> (PAD)
-
-  Data Path: data_in<0> to Current_Address<11>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O             8   0.001   0.985  data_in_0_IBUF (data_in_0_IBUF)
-     LUT6:I0->O            1   0.124   0.000  ex/Madd_n0203[16:0]_lut<0>1 (ex/Madd_n0203[16:0]_lut<0>1)
+     FDE:C->Q             36   0.478   1.092  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_1 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe<1>)
+     LUT6:I0->O            1   0.124   0.000  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux_51 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux_51)
+     MUXF7:I1->O           1   0.368   0.000  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux_4_f7 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux_4_f7)
+     MUXF8:I0->O           1   0.296   0.421  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux_2_f8 (douta<0>)
+     end scope: 'dm/d_m:douta<0>'
+     LUT3:I2->O            6   0.124   0.749  dm/Mmux_ans_dm17 (ans_dm_0_OBUF)
+     LUT6:I3->O           15   0.124   0.513  reg_bank/Mmux_n003311 (A_0_OBUF)
+     LUT2:I1->O            1   0.124   0.000  ex/Madd_n0203[16:0]_lut<0>1 (ex/Madd_n0203[16:0]_lut<0>1)
      MUXCY:S->O            1   0.472   0.000  ex/Madd_n0203[16:0]_cy<0> (ex/Madd_n0203[16:0]_cy<0>)
      MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<1> (ex/Madd_n0203[16:0]_cy<1>)
      MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<2> (ex/Madd_n0203[16:0]_cy<2>)
@@ -804,24 +789,66 @@ Delay:               7.847ns (Levels of Logic = 26)
      MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<6> (ex/Madd_n0203[16:0]_cy<6>)
      MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<7> (ex/Madd_n0203[16:0]_cy<7>)
      MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<8> (ex/Madd_n0203[16:0]_cy<8>)
-     XORCY:CI->O           1   0.510   0.421  ex/Madd_n0203[16:0]_xor<9> (ex/n0203[16:0]<9>)
-     LUT6:I5->O            1   0.124   0.421  ex/op_dec<3>151_SW1 (N199)
-     LUT5:I4->O            2   0.124   0.722  ex/op_dec<3>151 (ex/Mmux__n021415_A_rs_A<9>)
-     LUT3:I0->O            1   0.124   0.421  ex/Mmux__n021415_rs9 (ex/Mmux__n021415_rs9)
-     LUT4:I3->O            1   0.124   0.000  ex/Mmux__n021415_rs_lut<0>10 (ex/Mmux__n021415_rs_lut<0>10)
-     MUXCY:S->O            1   0.472   0.000  ex/Mmux__n021415_rs_cy<0>_9 (ex/Mmux__n021415_rs_cy<0>10)
-     MUXCY:CI->O           1   0.029   0.000  ex/Mmux__n021415_rs_cy<0>_10 (ex/Mmux__n021415_rs_cy<0>11)
-     MUXCY:CI->O           1   0.029   0.000  ex/Mmux__n021415_rs_cy<0>_11 (ex/Mmux__n021415_rs_cy<0>12)
-     MUXCY:CI->O           1   0.029   0.000  ex/Mmux__n021415_rs_cy<0>_12 (ex/Mmux__n021415_rs_cy<0>13)
-     MUXCY:CI->O           1   0.029   0.000  ex/Mmux__n021415_rs_cy<0>_13 (ex/Mmux__n021415_rs_cy<0>14)
-     MUXCY:CI->O           0   0.029   0.000  ex/Mmux__n021415_rs_cy<0>_14 (ex/Mmux__n021415_rs_cy<0>15)
-     XORCY:CI->O          32   0.510   0.574  ex/Mmux__n021415_rs_xor<0>_15 (ex/Mmux__n021415_split<16>)
-     LUT6:I5->O           18   0.124   0.533  jc/pc_mux_sel2 (pc_mux_sel)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<9> (ex/Madd_n0203[16:0]_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<10> (ex/Madd_n0203[16:0]_cy<10>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<11> (ex/Madd_n0203[16:0]_cy<11>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<12> (ex/Madd_n0203[16:0]_cy<12>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<13> (ex/Madd_n0203[16:0]_cy<13>)
+     XORCY:CI->O           1   0.510   0.421  ex/Madd_n0203[16:0]_xor<14> (ex/n0203[16:0]<14>)
+     LUT5:I4->O            1   0.124   0.536  ex/Mmux__n021415_A_A_711 (ex/Mmux__n021415_A_A_711)
+     LUT6:I4->O            2   0.124   0.722  ex/op_dec<3>51 (ex/Mmux__n021415_A_rs_A<14>)
+     LUT3:I0->O            1   0.124   0.421  ex/Mmux__n021415_rs14 (ex/Mmux__n021415_rs14)
+     LUT4:I3->O            1   0.124   0.000  ex/Mmux__n021415_rs_lut<0>15 (ex/Mmux__n021415_rs_lut<0>15)
+     MUXCY:S->O            0   0.472   0.000  ex/Mmux__n021415_rs_cy<0>_14 (ex/Mmux__n021415_rs_cy<0>15)
+     XORCY:CI->O          34   0.510   0.574  ex/Mmux__n021415_rs_xor<0>_15 (ex/Mmux__n021415_split<16>)
+     LUT6:I5->O           16   0.124   0.519  jc/pc_mux_sel2 (pc_mux_sel)
      LUT6:I5->O           60   0.124   0.558  pm/Mmux_current_address22 (Current_Address_10_OBUF)
      OBUF:I->O                 0.000          Current_Address_10_OBUF (Current_Address<10>)
     ----------------------------------------
-    Total                      7.847ns (3.213ns logic, 4.634ns route)
-                                       (40.9% logic, 59.1% route)
+    Total                     11.252ns (4.726ns logic, 6.526ns route)
+                                       (42.0% logic, 58.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 9551 / 48
+-------------------------------------------------------------------------
+Delay:               7.546ns (Levels of Logic = 26)
+  Source:            data_in<0> (PAD)
+  Destination:       Current_Address<11> (PAD)
+
+  Data Path: data_in<0> to Current_Address<11>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   0.001   0.582  data_in_0_IBUF (data_in_0_IBUF)
+     LUT2:I0->O            1   0.124   0.000  ex/Madd_n0203[16:0]_lut<0>1 (ex/Madd_n0203[16:0]_lut<0>1)
+     MUXCY:S->O            1   0.472   0.000  ex/Madd_n0203[16:0]_cy<0> (ex/Madd_n0203[16:0]_cy<0>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<1> (ex/Madd_n0203[16:0]_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<2> (ex/Madd_n0203[16:0]_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<3> (ex/Madd_n0203[16:0]_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<4> (ex/Madd_n0203[16:0]_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<5> (ex/Madd_n0203[16:0]_cy<5>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<6> (ex/Madd_n0203[16:0]_cy<6>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<7> (ex/Madd_n0203[16:0]_cy<7>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<8> (ex/Madd_n0203[16:0]_cy<8>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<9> (ex/Madd_n0203[16:0]_cy<9>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<10> (ex/Madd_n0203[16:0]_cy<10>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<11> (ex/Madd_n0203[16:0]_cy<11>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<12> (ex/Madd_n0203[16:0]_cy<12>)
+     MUXCY:CI->O           1   0.029   0.000  ex/Madd_n0203[16:0]_cy<13> (ex/Madd_n0203[16:0]_cy<13>)
+     XORCY:CI->O           1   0.510   0.421  ex/Madd_n0203[16:0]_xor<14> (ex/n0203[16:0]<14>)
+     LUT5:I4->O            1   0.124   0.536  ex/Mmux__n021415_A_A_711 (ex/Mmux__n021415_A_A_711)
+     LUT6:I4->O            2   0.124   0.722  ex/op_dec<3>51 (ex/Mmux__n021415_A_rs_A<14>)
+     LUT3:I0->O            1   0.124   0.421  ex/Mmux__n021415_rs14 (ex/Mmux__n021415_rs14)
+     LUT4:I3->O            1   0.124   0.000  ex/Mmux__n021415_rs_lut<0>15 (ex/Mmux__n021415_rs_lut<0>15)
+     MUXCY:S->O            0   0.472   0.000  ex/Mmux__n021415_rs_cy<0>_14 (ex/Mmux__n021415_rs_cy<0>15)
+     XORCY:CI->O          34   0.510   0.574  ex/Mmux__n021415_rs_xor<0>_15 (ex/Mmux__n021415_split<16>)
+     LUT6:I5->O           16   0.124   0.519  jc/pc_mux_sel2 (pc_mux_sel)
+     LUT6:I5->O           60   0.124   0.558  pm/Mmux_current_address22 (Current_Address_10_OBUF)
+     OBUF:I->O                 0.000          Current_Address_10_OBUF (Current_Address<10>)
+    ----------------------------------------
+    Total                      7.546ns (3.213ns logic, 4.333ns route)
+                                       (42.6% logic, 57.4% route)
 
 =========================================================================
 
@@ -833,20 +860,20 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |   10.581|         |         |         |
+clk            |   11.473|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 21.00 secs
-Total CPU time to Xst completion: 20.99 secs
+Total REAL time to Xst completion: 32.00 secs
+Total CPU time to Xst completion: 31.62 secs
  
 --> 
 
-Total memory usage is 373040 kilobytes
+Total memory usage is 4742888 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   12 (   0 filtered)
-Number of infos    :   27 (   0 filtered)
+Number of warnings :   33 (   0 filtered)
+Number of infos    :   28 (   0 filtered)
 

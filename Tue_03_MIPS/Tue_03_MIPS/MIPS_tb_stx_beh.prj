@@ -1,3 +1,5 @@
+verilog isim_temp "ipcore_dir/prog_mem2.v"
+verilog isim_temp "ipcore_dir/data_mem.v"
 verilog isim_temp "write_back_block.v"
 verilog isim_temp "stall_control_block.v"
 verilog isim_temp "Register_Bank_Block.v"
